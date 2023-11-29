@@ -11,5 +11,10 @@ $ sudo curl --create-dirs -L\
   https://raw.githubusercontent.com/Athesto/keyboard-layouts/main/mac/en-intl-altgr-dead-keys.keylayout
 ```
 
+## Windows
+
+https://github.com/thomasfaingnaert/win-us-intl-altgr
+
+
 ## TODO
 - include command into button below "tab" and left of "1" for iso keyboard
