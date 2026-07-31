@@ -6,7 +6,7 @@ MODIFICATIONS:
 -->
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 
-<keyboard group="126" id="-25794" name="en-intl-altgr-dead-keys" maxout="2">
+<keyboard group="126" id="-25794" name="us-intl-altgr-dead-keys-custom" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
