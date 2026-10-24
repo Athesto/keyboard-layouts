@@ -21,7 +21,9 @@ curl --fail --create-dirs -L \
 ```
 
 The download URL becomes available after these changes are published.
-Then select **US International — AltGr dead keys** in macOS input sources.
+Log out and log back in after installing or replacing the file. Then add and
+select **US International — AltGr dead keys** in macOS input sources.
+If replacing the active layout, switch to ABC before installing the update.
 
 ## 🪟 Windows
 

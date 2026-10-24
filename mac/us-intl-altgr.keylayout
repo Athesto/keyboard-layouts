@@ -168,7 +168,7 @@
             <key code="23" output="%"/>
             <key code="24" action="linux_u002b"/>
             <key code="25" action="linux_u0028"/>
-            <key code="26" output="&amp;"/>
+            <key code="26" output="&#x0026;"/>
             <key code="27" output="_"/>
             <key code="28" output="*"/>
             <key code="29" action="linux_u0029"/>
@@ -181,7 +181,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="linux_u004c"/>
             <key code="38" action="linux_u004a"/>
-            <key code="39" output="&quot;"/>
+            <key code="39" output="&#x0022;"/>
             <key code="40" action="linux_u004b"/>
             <key code="41" output=":"/>
             <key code="42" output="|"/>
@@ -1264,13 +1264,13 @@
             <when state="none" output=" "/>
             <when state="linux_dead_abovedot" output="˙"/>
             <when state="linux_dead_abovering" output="°"/>
-            <when state="linux_dead_acute" output="&#x27;"/>
+            <when state="linux_dead_acute" output="&#x0027;"/>
             <when state="linux_dead_belowdot" output="̣"/>
             <when state="linux_dead_breve" output="˘"/>
             <when state="linux_dead_caron" output="ˇ"/>
             <when state="linux_dead_cedilla" output="¸"/>
             <when state="linux_dead_circumflex" output="^"/>
-            <when state="linux_dead_diaeresis" output="&quot;"/>
+            <when state="linux_dead_diaeresis" output="&#x0022;"/>
             <when state="linux_dead_doubleacute" output="˝"/>
             <when state="linux_dead_grave" output="`"/>
             <when state="linux_dead_hook" output="̉"/>
@@ -1281,7 +1281,7 @@
             <when state="linux_dead_tilde" output="~"/>
         </action>
         <action id="linux_u0027">
-            <when state="none" output="&#x27;"/>
+            <when state="none" output="&#x0027;"/>
             <when state="linux_dead_diaeresis" output="̈́"/>
         </action>
         <action id="linux_u0028">
@@ -1362,7 +1362,7 @@
             <when state="linux_dead_circumflex" output="⁹"/>
         </action>
         <action id="linux_u003c">
-            <when state="none" output="&lt;"/>
+            <when state="none" output="&#x003C;"/>
             <when state="linux_dead_stroke" output="≮"/>
             <when state="linux_dead_tilde" output="≲"/>
         </action>
@@ -1375,7 +1375,7 @@
             <when state="linux_dead_tilde" output="≃"/>
         </action>
         <action id="linux_u003e">
-            <when state="none" output="&gt;"/>
+            <when state="none" output="&#x003E;"/>
             <when state="linux_dead_stroke" output="≯"/>
             <when state="linux_dead_tilde" output="≳"/>
         </action>
@@ -3109,13 +3109,13 @@
         <when state="dead_tilde" output="~"/>
         <when state="linux_dead_abovedot" output="˙"/>
         <when state="linux_dead_abovering" output="°"/>
-        <when state="linux_dead_acute" output="&#x27;"/>
+        <when state="linux_dead_acute" output="&#x0027;"/>
         <when state="linux_dead_belowdot" output="̣"/>
         <when state="linux_dead_breve" output="˘"/>
         <when state="linux_dead_caron" output="ˇ"/>
         <when state="linux_dead_cedilla" output="¸"/>
         <when state="linux_dead_circumflex" output="^"/>
-        <when state="linux_dead_diaeresis" output="&quot;"/>
+        <when state="linux_dead_diaeresis" output="&#x0022;"/>
         <when state="linux_dead_doubleacute" output="˝"/>
         <when state="linux_dead_grave" output="`"/>
         <when state="linux_dead_hook" output="̉"/>

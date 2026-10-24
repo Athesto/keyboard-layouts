@@ -1,6 +1,6 @@
 """Generate macOS and MSKLC layouts from the pinned Linux reference."""
 from pathlib import Path
-import ast,hashlib,html,json,re,unicodedata as ud
+import ast,hashlib,json,re,unicodedata as ud
 from mac_to_klc import KEYS,ROOT
 REF=ROOT/'linux/reference'
 
@@ -56,7 +56,14 @@ def reference():
     return records,compose,terms,manifest
 
 def xml_attr(value):
-    return html.escape(value,quote=True).replace('\n','&#x000A;').replace('\r','&#x000D;').replace('\t','&#x0009;')
+    # Apple's keylayout compiler supports numeric references, not named entities.
+    escaped = {
+        "&": "&#x0026;", "<": "&#x003C;", ">": "&#x003E;",
+        '"': "&#x0022;", "'": "&#x0027;",
+        "\n": "&#x000A;", "\r": "&#x000D;", "\t": "&#x0009;",
+    }
+    return "".join(escaped.get(char, char) for char in value)
+
 
 def generate():
     records,compose,terms,manifest=reference()

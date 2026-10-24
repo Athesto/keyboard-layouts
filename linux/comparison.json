@@ -896,7 +896,7 @@
     "No existing Mac/Windows layout or installer has been modified by this audit"
   ],
   "compared_files": {
-    "mac/us-intl-altgr.keylayout": "dd5b19d4a732e21421def1b6588863d2095f4ed2bad75b2d1de67d91dbb0696d",
+    "mac/us-intl-altgr.keylayout": "fef9799b868892f24975dc66848a5310821c1955899c11a6114cedfcbacfdce1",
     "windows/us-intl-altgr.klc": "bd0c6cded7942f9cc9f2e1be4a870b23dcafc7c918ddbf0dc462ce9a9b0235d5"
   }
 }

@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json,re,unittest
 from mac_to_klc import ROOT
-from generate_from_linux import reference
+from generate_from_linux import reference,xml_attr
 
 class LayoutTests(unittest.TestCase):
     @classmethod
@@ -47,6 +47,19 @@ class LayoutTests(unittest.TestCase):
         self.assertNotIn('\n',self.klc[2:].decode('utf-16-le').replace('\r\n',''))
         mac=(ROOT/'mac/us-intl-altgr.keylayout').read_bytes()
         mac.decode('utf-8');self.assertNotIn(b'\r',mac)
+    def test_mac_numeric_character_references(self):
+        # A generic XML parser accepts named entities that macOS silently drops.
+        self.assertEqual(xml_attr('&<>"\'\n\r\t'),
+                         '&#x0026;&#x003C;&#x003E;&#x0022;&#x0027;&#x000A;&#x000D;&#x0009;')
+        self.assertEqual(xml_attr('áÑ'), 'áÑ')
+        mac=(ROOT/'mac/us-intl-altgr.keylayout').read_text(encoding='utf-8')
+        self.assertIsNone(re.search(r'&[A-Za-z][A-Za-z0-9]*;',mac))
+        self.assertIn('<key code="26" output="&#x0026;"/>',mac)
+        self.assertIn('<key code="39" output="&#x0022;"/>',mac)
+        for action,output in [('linux_u003c','&#x003C;'),
+                              ('linux_u003e','&#x003E;')]:
+            self.assertIn(f'<action id="{action}">\n            <when state="none" output="{output}"/>',mac)
+
     def test_generated_hashes_current(self):
         for rel,wanted in self.report['compared_files'].items():self.assertEqual(hashlib.sha256((ROOT/rel).read_bytes()).hexdigest(),wanted)
 
