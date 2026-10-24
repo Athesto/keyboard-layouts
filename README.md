@@ -10,8 +10,8 @@ This is the version by [Tobias Müller](https://www.twam.info/about_me) - [Us In
 
 ```
 $ sudo curl --create-dirs -L\
-  --output '/Library/Keyboard Layouts/US international keyboard with dead keys'\
-  https://raw.githubusercontent.com/Athesto/keyboard-layouts/main/mac/en-intl-altgr-dead-keys.keylayout
+  --output '~/Library/Keyboard Layouts/US international keyboard with dead keys'\
+  https://athesto.github.io/keyboard-layouts/mac/us-altgr-intl.keylayout
 ```
 
 ## Windows
