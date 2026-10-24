@@ -1,0 +1,3128 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<keyboard group="126" id="-25794" name="US International — AltGr dead keys" maxout="3">
+    <layouts>
+        <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
+        <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="21" last="23" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="30" last="30" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="33" last="33" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="36" last="36" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="194" last="194" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="197" last="197" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="200" last="201" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="206" last="207" mapSet="JIS" modifiers="Modifiers"/>
+    </layouts>
+    <modifierMap id="Modifiers" defaultIndex="6">
+        <keyMapSelect mapIndex="0">
+            <modifier keys=""/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="anyShift caps? anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="4">
+            <modifier keys="command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="5">
+            <modifier keys="caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="6">
+            <modifier keys="anyControl"/>
+        </keyMapSelect>
+    </modifierMap>
+    <keyMapSet id="ANSI">
+        <keyMap index="0">
+            <key code="0" action="linux_u0061"/>
+            <key code="1" action="linux_u0073"/>
+            <key code="2" action="linux_u0064"/>
+            <key code="3" action="linux_u0066"/>
+            <key code="4" action="linux_u0068"/>
+            <key code="5" action="linux_u0067"/>
+            <key code="6" action="linux_u007a"/>
+            <key code="7" action="linux_u0078"/>
+            <key code="8" action="linux_u0063"/>
+            <key code="9" action="linux_u0076"/>
+            <key code="11" action="linux_u0062"/>
+            <key code="12" action="linux_u0071"/>
+            <key code="13" action="linux_u0077"/>
+            <key code="14" action="linux_u0065"/>
+            <key code="15" action="linux_u0072"/>
+            <key code="16" action="linux_u0079"/>
+            <key code="17" action="linux_u0074"/>
+            <key code="18" action="linux_u0031"/>
+            <key code="19" action="linux_u0032"/>
+            <key code="20" action="linux_u0033"/>
+            <key code="21" action="linux_u0034"/>
+            <key code="22" action="linux_u0036"/>
+            <key code="23" action="linux_u0035"/>
+            <key code="24" action="linux_u003d"/>
+            <key code="25" action="linux_u0039"/>
+            <key code="26" action="linux_u0037"/>
+            <key code="27" action="linux_u002d"/>
+            <key code="28" action="linux_u0038"/>
+            <key code="29" action="linux_u0030"/>
+            <key code="30" output="]"/>
+            <key code="31" action="linux_u006f"/>
+            <key code="32" action="linux_u0075"/>
+            <key code="33" output="["/>
+            <key code="34" action="linux_u0069"/>
+            <key code="35" action="linux_u0070"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="linux_u006c"/>
+            <key code="38" action="linux_u006a"/>
+            <key code="39" action="linux_u0027"/>
+            <key code="40" action="linux_u006b"/>
+            <key code="41" output=";"/>
+            <key code="42" output="\"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" action="linux_u006e"/>
+            <key code="46" action="linux_u006d"/>
+            <key code="47" action="linux_u002e"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="linux_u0020"/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="1">
+            <key code="0" action="linux_u0041"/>
+            <key code="1" action="linux_u0053"/>
+            <key code="2" action="linux_u0044"/>
+            <key code="3" action="linux_u0046"/>
+            <key code="4" action="linux_u0048"/>
+            <key code="5" action="linux_u0047"/>
+            <key code="6" action="linux_u005a"/>
+            <key code="7" action="linux_u0058"/>
+            <key code="8" action="linux_u0043"/>
+            <key code="9" action="linux_u0056"/>
+            <key code="11" action="linux_u0042"/>
+            <key code="12" output="Q"/>
+            <key code="13" action="linux_u0057"/>
+            <key code="14" action="linux_u0045"/>
+            <key code="15" action="linux_u0052"/>
+            <key code="16" action="linux_u0059"/>
+            <key code="17" action="linux_u0054"/>
+            <key code="18" output="!"/>
+            <key code="19" output="@"/>
+            <key code="20" output="#"/>
+            <key code="21" output="$"/>
+            <key code="22" output="^"/>
+            <key code="23" output="%"/>
+            <key code="24" action="linux_u002b"/>
+            <key code="25" action="linux_u0028"/>
+            <key code="26" output="&amp;"/>
+            <key code="27" output="_"/>
+            <key code="28" output="*"/>
+            <key code="29" action="linux_u0029"/>
+            <key code="30" output="}"/>
+            <key code="31" action="linux_u004f"/>
+            <key code="32" action="linux_u0055"/>
+            <key code="33" output="{"/>
+            <key code="34" action="linux_u0049"/>
+            <key code="35" action="linux_u0050"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="linux_u004c"/>
+            <key code="38" action="linux_u004a"/>
+            <key code="39" output="&quot;"/>
+            <key code="40" action="linux_u004b"/>
+            <key code="41" output=":"/>
+            <key code="42" output="|"/>
+            <key code="43" action="linux_u003c"/>
+            <key code="44" output="?"/>
+            <key code="45" action="linux_u004e"/>
+            <key code="46" action="linux_u004d"/>
+            <key code="47" action="linux_u003e"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="linux_u0020"/>
+            <key code="50" output="~"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=""/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="2">
+            <key code="0" action="linux_u00e1"/>
+            <key code="1" output="ß"/>
+            <key code="2" output="ð"/>
+            <key code="3" action="linux_u0066"/>
+            <key code="4" action="linux_u0068"/>
+            <key code="5" action="linux_u0067"/>
+            <key code="6" action="linux_u00e6"/>
+            <key code="7" output="œ"/>
+            <key code="8" output="©"/>
+            <key code="9" output="®"/>
+            <key code="11" output="·"/>
+            <key code="12" action="linux_u00e4"/>
+            <key code="13" action="linux_u00e5"/>
+            <key code="14" action="linux_u00e9"/>
+            <key code="15" output="ë"/>
+            <key code="16" action="linux_u00fc"/>
+            <key code="17" output="þ"/>
+            <key code="18" output="¹"/>
+            <key code="19" output="²"/>
+            <key code="20" output="³"/>
+            <key code="21" output="¤"/>
+            <key code="22" action="linux_enter_dead_circumflex"/>
+            <key code="23" output="€"/>
+            <key code="24" output="×"/>
+            <key code="25" output="‘"/>
+            <key code="26" action="linux_enter_dead_horn"/>
+            <key code="27" output="¥"/>
+            <key code="28" action="linux_enter_dead_ogonek"/>
+            <key code="29" output="’"/>
+            <key code="30" output="»"/>
+            <key code="31" action="linux_u00f3"/>
+            <key code="32" action="linux_u00fa"/>
+            <key code="33" output="«"/>
+            <key code="34" action="linux_u00ed"/>
+            <key code="35" action="linux_u00f6"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="linux_u00f8"/>
+            <key code="38" action="linux_u00ef"/>
+            <key code="39" action="linux_enter_dead_acute"/>
+            <key code="40" output="œ"/>
+            <key code="41" output="¶"/>
+            <key code="42" output="¬"/>
+            <key code="43" action="linux_u00e7"/>
+            <key code="44" output="¿"/>
+            <key code="45" output="ñ"/>
+            <key code="46" output="µ"/>
+            <key code="47" action="linux_enter_dead_abovedot"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="linux_u0020"/>
+            <key code="50" action="linux_enter_dead_grave"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=""/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output=""/>
+            <key code="69" output=""/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output=""/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output=""/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output=""/>
+            <key code="82" output=""/>
+            <key code="83" output=""/>
+            <key code="84" output=""/>
+            <key code="85" output=""/>
+            <key code="86" output=""/>
+            <key code="87" output=""/>
+            <key code="88" output=""/>
+            <key code="89" output=""/>
+            <key code="91" output=""/>
+            <key code="92" output=""/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="3">
+            <key code="0" action="linux_u00c1"/>
+            <key code="1" output="§"/>
+            <key code="2" output="Ð"/>
+            <key code="3" action="linux_u0046"/>
+            <key code="4" action="linux_u0048"/>
+            <key code="5" action="linux_u0047"/>
+            <key code="6" action="linux_u00c6"/>
+            <key code="7" output="Œ"/>
+            <key code="8" action="linux_u00a2"/>
+            <key code="9" output="™"/>
+            <key code="11" action="linux_enter_dead_stroke"/>
+            <key code="12" action="linux_u00c4"/>
+            <key code="13" action="linux_u00c5"/>
+            <key code="14" action="linux_u00c9"/>
+            <key code="15" output="Ë"/>
+            <key code="16" action="linux_u00dc"/>
+            <key code="17" output="Þ"/>
+            <key code="18" output="¡"/>
+            <key code="19" action="linux_enter_dead_doubleacute"/>
+            <key code="20" action="linux_enter_dead_macron"/>
+            <key code="21" output="£"/>
+            <key code="22" output="¼"/>
+            <key code="23" action="linux_enter_dead_cedilla"/>
+            <key code="24" output="÷"/>
+            <key code="25" action="linux_enter_dead_breve"/>
+            <key code="26" output="½"/>
+            <key code="27" action="linux_enter_dead_belowdot"/>
+            <key code="28" output="¾"/>
+            <key code="29" action="linux_enter_dead_abovering"/>
+            <key code="30" output="”"/>
+            <key code="31" action="linux_u00d3"/>
+            <key code="32" action="linux_u00da"/>
+            <key code="33" output="“"/>
+            <key code="34" action="linux_u00cd"/>
+            <key code="35" action="linux_u00d6"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="linux_u00d8"/>
+            <key code="38" action="linux_u00cf"/>
+            <key code="39" action="linux_enter_dead_diaeresis"/>
+            <key code="40" output="Œ"/>
+            <key code="41" output="°"/>
+            <key code="42" output="¦"/>
+            <key code="43" action="linux_u00c7"/>
+            <key code="44" action="linux_enter_dead_hook"/>
+            <key code="45" output="Ñ"/>
+            <key code="46" output="±"/>
+            <key code="47" action="linux_enter_dead_caron"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="linux_u0020"/>
+            <key code="50" action="linux_enter_dead_tilde"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=""/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output=""/>
+            <key code="69" output=""/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output=""/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output=""/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output=""/>
+            <key code="82" output=""/>
+            <key code="83" output=""/>
+            <key code="84" output=""/>
+            <key code="85" output=""/>
+            <key code="86" output=""/>
+            <key code="87" output=""/>
+            <key code="88" output=""/>
+            <key code="89" output=""/>
+            <key code="91" output=""/>
+            <key code="92" output=""/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="4">
+            <key code="0" output="a"/>
+            <key code="1" output="s"/>
+            <key code="2" output="d"/>
+            <key code="3" output="f"/>
+            <key code="4" output="h"/>
+            <key code="5" output="g"/>
+            <key code="6" output="z"/>
+            <key code="7" output="x"/>
+            <key code="8" output="c"/>
+            <key code="9" output="v"/>
+            <key code="11" output="b"/>
+            <key code="12" output="q"/>
+            <key code="13" output="w"/>
+            <key code="14" output="e"/>
+            <key code="15" output="r"/>
+            <key code="16" output="y"/>
+            <key code="17" output="t"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="-"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="]"/>
+            <key code="31" output="o"/>
+            <key code="32" output="u"/>
+            <key code="33" output="["/>
+            <key code="34" output="i"/>
+            <key code="35" output="p"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="l"/>
+            <key code="38" output="j"/>
+            <key code="39" output="&#x0027;"/>
+            <key code="40" output="k"/>
+            <key code="41" output=";"/>
+            <key code="42" output="\"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" output="n"/>
+            <key code="46" output="m"/>
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=""/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="5">
+            <key code="0" output="A"/>
+            <key code="1" output="S"/>
+            <key code="2" output="D"/>
+            <key code="3" output="F"/>
+            <key code="4" output="H"/>
+            <key code="5" output="G"/>
+            <key code="6" output="Z"/>
+            <key code="7" output="X"/>
+            <key code="8" output="C"/>
+            <key code="9" output="V"/>
+            <key code="11" output="B"/>
+            <key code="12" output="Q"/>
+            <key code="13" output="W"/>
+            <key code="14" output="E"/>
+            <key code="15" output="R"/>
+            <key code="16" output="Y"/>
+            <key code="17" output="T"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="-"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="]"/>
+            <key code="31" output="O"/>
+            <key code="32" output="U"/>
+            <key code="33" output="["/>
+            <key code="34" output="I"/>
+            <key code="35" output="P"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="L"/>
+            <key code="38" output="J"/>
+            <key code="39" output="&#x0027;"/>
+            <key code="40" output="K"/>
+            <key code="41" output=";"/>
+            <key code="42" output="\"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" output="N"/>
+            <key code="46" output="M"/>
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=""/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="6">
+            <key code="0" output=""/>
+            <key code="1" output=""/>
+            <key code="2" output=""/>
+            <key code="3" output=""/>
+            <key code="4" output=""/>
+            <key code="5" output=""/>
+            <key code="6" output=""/>
+            <key code="7" output=""/>
+            <key code="8" output=""/>
+            <key code="9" output=""/>
+            <key code="11" output=""/>
+            <key code="12" output=""/>
+            <key code="13" output=""/>
+            <key code="14" output=""/>
+            <key code="15" output=""/>
+            <key code="16" output=""/>
+            <key code="17" output=""/>
+            <key code="18" output=""/>
+            <key code="19" output=""/>
+            <key code="20" output=""/>
+            <key code="21" output=""/>
+            <key code="22" output=""/>
+            <key code="23" output=""/>
+            <key code="24" output=""/>
+            <key code="25" output=""/>
+            <key code="26" output=""/>
+            <key code="27" output=""/>
+            <key code="28" output=""/>
+            <key code="29" output=""/>
+            <key code="30" output=""/>
+            <key code="31" output=""/>
+            <key code="32" output=""/>
+            <key code="33" output=""/>
+            <key code="34" output=""/>
+            <key code="35" output=""/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output=""/>
+            <key code="38" output=""/>
+            <key code="39" output=""/>
+            <key code="40" output=""/>
+            <key code="41" output=""/>
+            <key code="42" output=""/>
+            <key code="43" output=""/>
+            <key code="44" output=""/>
+            <key code="45" output=""/>
+            <key code="46" output=""/>
+            <key code="47" output=""/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=""/>
+            <key code="50" output=""/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output=""/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output=""/>
+            <key code="69" output=""/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output=""/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output=""/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output=""/>
+            <key code="82" output=""/>
+            <key code="83" output=""/>
+            <key code="84" output=""/>
+            <key code="85" output=""/>
+            <key code="86" output=""/>
+            <key code="87" output=""/>
+            <key code="88" output=""/>
+            <key code="89" output=""/>
+            <key code="91" output=""/>
+            <key code="92" output=""/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+    </keyMapSet>
+    <keyMapSet id="JIS">
+        <keyMap index="0" baseMapSet="ANSI" baseIndex="0">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="1" baseMapSet="ANSI" baseIndex="1">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="2" baseMapSet="ANSI" baseIndex="2">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="3" baseMapSet="ANSI" baseIndex="3">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="5" baseMapSet="ANSI" baseIndex="5">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="6" baseMapSet="ANSI" baseIndex="6">
+            <key code="512" output=""/>
+        </keyMap>
+    </keyMapSet>
+    <actions>
+        <action id="/">
+            <when state="none" next="dead_hook"/>
+        </action>
+        <action id="/ 1">
+            <when state="none" next="dead_hook"/>
+        </action>
+        <action id="6">
+            <when state="none" output="6"/>
+            <when state="dead_cedilla" output="6"/>
+        </action>
+        <action id="A">
+            <when state="none" output="A"/>
+            <when state="dead_abovedot" output="Ȧ"/>
+            <when state="dead_abovering" output="Å"/>
+            <when state="dead_acute" output="Á"/>
+            <when state="dead_belowdot" output="Ạ"/>
+            <when state="dead_breve" output="Ă"/>
+            <when state="dead_caron" output="Ǎ"/>
+            <when state="dead_cedilla" output="A̧"/>
+            <when state="dead_circumflex" output="Â"/>
+            <when state="dead_diaresis" output="Ä"/>
+            <when state="dead_grave" output="À"/>
+            <when state="dead_hook" output="Ả"/>
+            <when state="dead_macron" output="Ā"/>
+            <when state="dead_ogonek" output="Ą"/>
+            <when state="dead_tilde" output="Ã"/>
+        </action>
+        <action id="C">
+            <when state="none" output="C"/>
+            <when state="dead_abovedot" output="Ċ"/>
+            <when state="dead_acute" output="Ć"/>
+            <when state="dead_caron" output="Č"/>
+            <when state="dead_cedilla" output="Ç"/>
+            <when state="dead_circumflex" output="Ĉ"/>
+        </action>
+        <action id="D">
+            <when state="none" output="D"/>
+            <when state="dead_caron" output="Ď"/>
+        </action>
+        <action id="E">
+            <when state="none" output="E"/>
+            <when state="dead_abovedot" output="Ė"/>
+            <when state="dead_acute" output="É"/>
+            <when state="dead_belowdot" output="Ẹ"/>
+            <when state="dead_breve" output="Ĕ"/>
+            <when state="dead_caron" output="Ě"/>
+            <when state="dead_cedilla" output="Ȩ"/>
+            <when state="dead_circumflex" output="Ê"/>
+            <when state="dead_diaresis" output="Ë"/>
+            <when state="dead_grave" output="È"/>
+            <when state="dead_hook" output="Ẻ"/>
+            <when state="dead_horn" output="E̛"/>
+            <when state="dead_macron" output="Ē"/>
+            <when state="dead_ogonek" output="Ę"/>
+            <when state="dead_tilde" output="Ẽ"/>
+        </action>
+        <action id="F">
+            <when state="none" next="dead_doubleacute"/>
+        </action>
+        <action id="G">
+            <when state="none" output="G"/>
+            <when state="dead_abovedot" output="Ġ"/>
+            <when state="dead_acute" output="Ǵ"/>
+            <when state="dead_breve" output="Ğ"/>
+            <when state="dead_caron" output="Ǧ"/>
+            <when state="dead_circumflex" output="Ĝ"/>
+        </action>
+        <action id="H">
+            <when state="none" output="H"/>
+            <when state="dead_caron" output="Ȟ"/>
+        </action>
+        <action id="I">
+            <when state="none" output="I"/>
+            <when state="dead_abovedot" output="İ"/>
+            <when state="dead_acute" output="Í"/>
+            <when state="dead_belowdot" output="Ị"/>
+            <when state="dead_breve" output="Ĭ"/>
+            <when state="dead_caron" output="Ǐ"/>
+            <when state="dead_cedilla" output="i̧"/>
+            <when state="dead_circumflex" output="Î"/>
+            <when state="dead_diaresis" output="Ï"/>
+            <when state="dead_grave" output="Ì"/>
+            <when state="dead_hook" output="Ỉ"/>
+            <when state="dead_macron" output="Ī"/>
+            <when state="dead_ogonek" output="Į"/>
+            <when state="dead_tilde" output="Ĩ"/>
+        </action>
+        <action id="K">
+            <when state="none" output="K"/>
+            <when state="dead_acute" output="Ḱ"/>
+            <when state="dead_belowdot" output="Ḳ"/>
+            <when state="dead_caron" output="Ǩ"/>
+        </action>
+        <action id="L">
+            <when state="none" output="L"/>
+            <when state="dead_acute" output="Ĺ"/>
+            <when state="dead_belowdot" output="Ḷ"/>
+            <when state="dead_caron" output="Ľ"/>
+        </action>
+        <action id="M">
+            <when state="none" output="M"/>
+            <when state="dead_abovedot" output="Ṁ"/>
+            <when state="dead_acute" output="Ḿ"/>
+            <when state="dead_belowdot" output="Ṃ"/>
+        </action>
+        <action id="N">
+            <when state="none" output="N"/>
+            <when state="dead_abovedot" output="Ṅ"/>
+            <when state="dead_acute" output="Ń"/>
+            <when state="dead_belowdot" output="Ṇ"/>
+            <when state="dead_caron" output="Ň"/>
+            <when state="dead_grave" output="Ǹ"/>
+            <when state="dead_tilde" output="Ñ"/>
+        </action>
+        <action id="O">
+            <when state="none" output="O"/>
+            <when state="dead_abovedot" output="Ȯ"/>
+            <when state="dead_acute" output="Ó"/>
+            <when state="dead_belowdot" output="Ọ"/>
+            <when state="dead_breve" output="Ŏ"/>
+            <when state="dead_caron" output="Ǒ"/>
+            <when state="dead_cedilla" output="O̧"/>
+            <when state="dead_circumflex" output="Ô"/>
+            <when state="dead_diaresis" output="Ö"/>
+            <when state="dead_doubleacute" output="Ő"/>
+            <when state="dead_grave" output="Ò"/>
+            <when state="dead_hook" output="Ỏ"/>
+            <when state="dead_horn" output="Ơ"/>
+            <when state="dead_macron" output="Ō"/>
+            <when state="dead_ogonek" output="Ǫ"/>
+            <when state="dead_tilde" output="Õ"/>
+        </action>
+        <action id="P">
+            <when state="none" output="P"/>
+            <when state="dead_abovedot" output="Ṗ"/>
+            <when state="dead_acute" output="Ṕ"/>
+        </action>
+        <action id="R">
+            <when state="none" output="R"/>
+            <when state="dead_abovedot" output="Ṙ"/>
+            <when state="dead_acute" output="Ŕ"/>
+            <when state="dead_belowdot" output="Ṛ"/>
+            <when state="dead_caron" output="Ř"/>
+        </action>
+        <action id="S">
+            <when state="none" output="S"/>
+            <when state="dead_abovedot" output="Ṡ"/>
+            <when state="dead_acute" output="Ś"/>
+            <when state="dead_belowdot" output="Ṣ"/>
+            <when state="dead_caron" output="Š"/>
+            <when state="dead_cedilla" output="Ş"/>
+            <when state="dead_circumflex" output="Ŝ"/>
+        </action>
+        <action id="T">
+            <when state="none" output="T"/>
+            <when state="dead_caron" output="Ť"/>
+        </action>
+        <action id="U">
+            <when state="none" output="U"/>
+            <when state="dead_abovering" output="Ů"/>
+            <when state="dead_acute" output="Ú"/>
+            <when state="dead_belowdot" output="Ụ"/>
+            <when state="dead_breve" output="Ŭ"/>
+            <when state="dead_caron" output="Ǔ"/>
+            <when state="dead_cedilla" output="U̧"/>
+            <when state="dead_circumflex" output="Û"/>
+            <when state="dead_diaresis" output="Ü"/>
+            <when state="dead_doubleacute" output="Ű"/>
+            <when state="dead_grave" output="Ù"/>
+            <when state="dead_hook" output="Ủ"/>
+            <when state="dead_horn" output="Ư"/>
+            <when state="dead_macron" output="Ū"/>
+            <when state="dead_ogonek" output="Ų"/>
+            <when state="dead_tilde" output="Ũ"/>
+        </action>
+        <action id="W">
+            <when state="none" output="W"/>
+            <when state="dead_abovedot" output="Ẇ"/>
+            <when state="dead_acute" output="Ẃ"/>
+            <when state="dead_belowdot" output="Ẉ"/>
+            <when state="dead_circumflex" output="Ŵ"/>
+            <when state="dead_diaresis" output="Ẅ"/>
+            <when state="dead_grave" output="Ẁ"/>
+        </action>
+        <action id="Y">
+            <when state="none" output="Y"/>
+            <when state="dead_abovedot" output="Ẏ"/>
+            <when state="dead_acute" output="Ý"/>
+            <when state="dead_belowdot" output="Ỵ"/>
+            <when state="dead_circumflex" output="Ŷ"/>
+            <when state="dead_diaresis" output="Ÿ"/>
+            <when state="dead_grave" output="Ỳ"/>
+            <when state="dead_hook" output="Ỷ"/>
+            <when state="dead_macron" output="Ȳ"/>
+            <when state="dead_tilde" output="Ỹ"/>
+        </action>
+        <action id="Z">
+            <when state="none" output="Z"/>
+            <when state="dead_abovedot" output="Ż"/>
+            <when state="dead_acute" output="Ź"/>
+            <when state="dead_belowdot" output="Ẓ"/>
+            <when state="dead_caron" output="Ž"/>
+            <when state="dead_circumflex" output="Ẑ"/>
+        </action>
+        <action id="a">
+            <when state="none" output="a"/>
+            <when state="dead_abovedot" output="ȧ"/>
+            <when state="dead_abovering" output="å"/>
+            <when state="dead_acute" output="á"/>
+            <when state="dead_belowdot" output="ạ"/>
+            <when state="dead_breve" output="ă"/>
+            <when state="dead_caron" output="ǎ"/>
+            <when state="dead_cedilla" output="a̧"/>
+            <when state="dead_circumflex" output="â"/>
+            <when state="dead_diaresis" output="ä"/>
+            <when state="dead_grave" output="à"/>
+            <when state="dead_hook" output=" ả"/>
+            <when state="dead_macron" output="ā"/>
+            <when state="dead_ogonek" output="ą"/>
+            <when state="dead_tilde" output="ã"/>
+        </action>
+        <action id="c">
+            <when state="none" output="c"/>
+            <when state="dead_abovedot" output="ċ"/>
+            <when state="dead_acute" output="ć"/>
+            <when state="dead_belowdot" output="c̣"/>
+            <when state="dead_caron" output="č"/>
+            <when state="dead_cedilla" output="ç"/>
+            <when state="dead_circumflex" output="ĉ"/>
+        </action>
+        <action id="d">
+            <when state="none" output="d"/>
+            <when state="dead_caron" output="ď"/>
+        </action>
+        <action id="dead_abovedot">
+            <when state="none" next="dead_abovedot"/>
+        </action>
+        <action id="dead_abovering">
+            <when state="none" next="dead_abovering"/>
+        </action>
+        <action id="dead_acute">
+            <when state="none" next="dead_acute"/>
+        </action>
+        <action id="dead_belowdot">
+            <when state="none" next="dead_belowdot"/>
+        </action>
+        <action id="dead_breve">
+            <when state="none" next="dead_breve"/>
+        </action>
+        <action id="dead_caron">
+            <when state="none" next="dead_caron"/>
+        </action>
+        <action id="dead_circum">
+            <when state="none" next="dead_circumflex"/>
+        </action>
+        <action id="dead_diaresis">
+            <when state="none" next="dead_diaresis"/>
+        </action>
+        <action id="dead_grave">
+            <when state="none" next="dead_grave"/>
+        </action>
+        <action id="dead_hook">
+            <when state="none" next="dead_hook"/>
+        </action>
+        <action id="dead_hook 3">
+            <when state="none" next="dead_cedilla"/>
+        </action>
+        <action id="dead_horn">
+            <when state="none" next="dead_horn"/>
+        </action>
+        <action id="dead_macron">
+            <when state="none" next="dead_macron"/>
+        </action>
+        <action id="dead_ogonek">
+            <when state="none" next="dead_ogonek"/>
+        </action>
+        <action id="dead_tilde">
+            <when state="none" next="dead_tilde"/>
+        </action>
+        <action id="e">
+            <when state="none" output="e"/>
+            <when state="dead_abovedot" output="ė"/>
+            <when state="dead_acute" output="é"/>
+            <when state="dead_belowdot" output="ẹ"/>
+            <when state="dead_breve" output="ĕ"/>
+            <when state="dead_caron" output="ě"/>
+            <when state="dead_cedilla" output="ȩ"/>
+            <when state="dead_circumflex" output="ê"/>
+            <when state="dead_diaresis" output="ë"/>
+            <when state="dead_grave" output="è"/>
+            <when state="dead_hook" output="ẻ"/>
+            <when state="dead_horn" output="e̛"/>
+            <when state="dead_macron" output="ē"/>
+            <when state="dead_ogonek" output="ę"/>
+            <when state="dead_tilde" output="ẽ"/>
+        </action>
+        <action id="g">
+            <when state="none" output="g"/>
+            <when state="dead_abovedot" output="ġ"/>
+            <when state="dead_acute" output="ǵ"/>
+            <when state="dead_breve" output="ğ"/>
+            <when state="dead_caron" output="ǧ"/>
+            <when state="dead_circumflex" output="ĝ"/>
+        </action>
+        <action id="h">
+            <when state="none" output="h"/>
+            <when state="dead_caron" output="ȟ"/>
+        </action>
+        <action id="i">
+            <when state="none" output="i"/>
+            <when state="dead_abovedot" output="ı"/>
+            <when state="dead_acute" output="í"/>
+            <when state="dead_belowdot" output="ị"/>
+            <when state="dead_breve" output="ĭ"/>
+            <when state="dead_caron" output="ǐ"/>
+            <when state="dead_circumflex" output="î"/>
+            <when state="dead_diaresis" output="ï"/>
+            <when state="dead_grave" output="ì"/>
+            <when state="dead_hook" output="ỉ"/>
+            <when state="dead_macron" output="ī"/>
+            <when state="dead_ogonek" output="į"/>
+            <when state="dead_tilde" output="ĩ"/>
+        </action>
+        <action id="j">
+            <when state="none" output="j"/>
+            <when state="dead_caron" output="ǰ"/>
+        </action>
+        <action id="k">
+            <when state="none" output="k"/>
+            <when state="dead_acute" output="ḱ"/>
+            <when state="dead_belowdot" output="ḳ"/>
+            <when state="dead_caron" output="ǩ"/>
+        </action>
+        <action id="l">
+            <when state="none" output="l"/>
+            <when state="dead_acute" output="ĺ"/>
+            <when state="dead_belowdot" output="ḷ"/>
+            <when state="dead_caron" output="ľ"/>
+        </action>
+        <action id="m">
+            <when state="none" output="m"/>
+            <when state="dead_abovedot" output="ṁ"/>
+            <when state="dead_acute" output="ḿ"/>
+            <when state="dead_belowdot" output="ṃ"/>
+        </action>
+        <action id="n">
+            <when state="none" output="n"/>
+            <when state="dead_abovedot" output="ṅ"/>
+            <when state="dead_acute" output="ń"/>
+            <when state="dead_belowdot" output="ṇ"/>
+            <when state="dead_caron" output="ň"/>
+            <when state="dead_grave" output="ǹ"/>
+            <when state="dead_tilde" output="ñ"/>
+        </action>
+        <action id="o">
+            <when state="none" output="o"/>
+            <when state="dead_abovedot" output="ȯ"/>
+            <when state="dead_acute" output="ó"/>
+            <when state="dead_belowdot" output="ọ"/>
+            <when state="dead_breve" output="ŏ"/>
+            <when state="dead_caron" output="ǒ"/>
+            <when state="dead_cedilla" output="o̧"/>
+            <when state="dead_circumflex" output="ô"/>
+            <when state="dead_diaresis" output="ö"/>
+            <when state="dead_doubleacute" output="ő"/>
+            <when state="dead_grave" output="ò"/>
+            <when state="dead_hook" output="ỏ"/>
+            <when state="dead_horn" output="ơ"/>
+            <when state="dead_macron" output="ō"/>
+            <when state="dead_ogonek" output="ǫ"/>
+            <when state="dead_tilde" output="õ"/>
+        </action>
+        <action id="p">
+            <when state="none" output="p"/>
+            <when state="dead_abovedot" output="ṗ"/>
+            <when state="dead_acute" output="ṕ"/>
+        </action>
+        <action id="r">
+            <when state="none" output="r"/>
+            <when state="dead_abovedot" output="ṙ"/>
+            <when state="dead_acute" output="ŕ"/>
+            <when state="dead_belowdot" output="ṛ"/>
+            <when state="dead_caron" output="ř"/>
+        </action>
+        <action id="s">
+            <when state="none" output="s"/>
+            <when state="dead_abovedot" output="ṡ"/>
+            <when state="dead_acute" output="ś"/>
+            <when state="dead_belowdot" output="ṣ"/>
+            <when state="dead_caron" output="š"/>
+            <when state="dead_cedilla" output="ş"/>
+            <when state="dead_circumflex" output="ŝ"/>
+        </action>
+        <action id="t">
+            <when state="none" output="t"/>
+            <when state="dead_caron" output="ť"/>
+        </action>
+        <action id="u">
+            <when state="none" output="u"/>
+            <when state="dead_abovering" output="ů"/>
+            <when state="dead_acute" output="ú"/>
+            <when state="dead_belowdot" output="ụ"/>
+            <when state="dead_breve" output="ŭ"/>
+            <when state="dead_caron" output="ǔ"/>
+            <when state="dead_cedilla" output="u̧"/>
+            <when state="dead_circumflex" output="û"/>
+            <when state="dead_diaresis" output="ü"/>
+            <when state="dead_doubleacute" output="ű"/>
+            <when state="dead_grave" output="ù"/>
+            <when state="dead_hook" output="ủ"/>
+            <when state="dead_horn" output="ư"/>
+            <when state="dead_macron" output="ū"/>
+            <when state="dead_ogonek" output="ų"/>
+            <when state="dead_tilde" output="ũ"/>
+        </action>
+        <action id="w">
+            <when state="none" output="w"/>
+            <when state="dead_abovedot" output="ẇ"/>
+            <when state="dead_abovering" output="ẘ"/>
+            <when state="dead_acute" output="ẃ"/>
+            <when state="dead_belowdot" output="ẉ"/>
+            <when state="dead_circumflex" output="ŵ"/>
+            <when state="dead_diaresis" output="ẅ"/>
+            <when state="dead_grave" output="ẁ"/>
+        </action>
+        <action id="y">
+            <when state="none" output="y"/>
+            <when state="dead_abovedot" output="ẏ"/>
+            <when state="dead_abovering" output="ẙ"/>
+            <when state="dead_acute" output="ý"/>
+            <when state="dead_belowdot" output="ỵ"/>
+            <when state="dead_circumflex" output="ŷ"/>
+            <when state="dead_diaresis" output="ÿ"/>
+            <when state="dead_grave" output="ỳ"/>
+            <when state="dead_hook" output="ỷ"/>
+            <when state="dead_macron" output="ȳ"/>
+            <when state="dead_tilde" output="ỹ"/>
+        </action>
+        <action id="z">
+            <when state="none" output="z"/>
+            <when state="dead_abovedot" output="ż"/>
+            <when state="dead_acute" output="ź"/>
+            <when state="dead_belowdot" output="ẓ"/>
+            <when state="dead_caron" output="ž"/>
+            <when state="dead_circumflex" output="ẑ"/>
+        </action>
+        <action id="linux_enter_dead_abovedot"><when state="none" next="linux_dead_abovedot"/></action>
+        <action id="linux_enter_dead_abovering"><when state="none" next="linux_dead_abovering"/></action>
+        <action id="linux_enter_dead_acute"><when state="none" next="linux_dead_acute"/></action>
+        <action id="linux_enter_dead_belowdot"><when state="none" next="linux_dead_belowdot"/></action>
+        <action id="linux_enter_dead_breve"><when state="none" next="linux_dead_breve"/></action>
+        <action id="linux_enter_dead_caron"><when state="none" next="linux_dead_caron"/></action>
+        <action id="linux_enter_dead_cedilla"><when state="none" next="linux_dead_cedilla"/></action>
+        <action id="linux_enter_dead_circumflex"><when state="none" next="linux_dead_circumflex"/></action>
+        <action id="linux_enter_dead_diaeresis"><when state="none" next="linux_dead_diaeresis"/></action>
+        <action id="linux_enter_dead_doubleacute"><when state="none" next="linux_dead_doubleacute"/></action>
+        <action id="linux_enter_dead_grave"><when state="none" next="linux_dead_grave"/></action>
+        <action id="linux_enter_dead_hook"><when state="none" next="linux_dead_hook"/></action>
+        <action id="linux_enter_dead_horn"><when state="none" next="linux_dead_horn"/></action>
+        <action id="linux_enter_dead_macron"><when state="none" next="linux_dead_macron"/></action>
+        <action id="linux_enter_dead_ogonek"><when state="none" next="linux_dead_ogonek"/></action>
+        <action id="linux_enter_dead_stroke"><when state="none" next="linux_dead_stroke"/></action>
+        <action id="linux_enter_dead_tilde"><when state="none" next="linux_dead_tilde"/></action>
+        <action id="linux_u0020">
+            <when state="none" output=" "/>
+            <when state="linux_dead_abovedot" output="˙"/>
+            <when state="linux_dead_abovering" output="°"/>
+            <when state="linux_dead_acute" output="&#x27;"/>
+            <when state="linux_dead_belowdot" output="̣"/>
+            <when state="linux_dead_breve" output="˘"/>
+            <when state="linux_dead_caron" output="ˇ"/>
+            <when state="linux_dead_cedilla" output="¸"/>
+            <when state="linux_dead_circumflex" output="^"/>
+            <when state="linux_dead_diaeresis" output="&quot;"/>
+            <when state="linux_dead_doubleacute" output="˝"/>
+            <when state="linux_dead_grave" output="`"/>
+            <when state="linux_dead_hook" output="̉"/>
+            <when state="linux_dead_horn" output="̛"/>
+            <when state="linux_dead_macron" output="¯"/>
+            <when state="linux_dead_ogonek" output="˛"/>
+            <when state="linux_dead_stroke" output="/"/>
+            <when state="linux_dead_tilde" output="~"/>
+        </action>
+        <action id="linux_u0027">
+            <when state="none" output="&#x27;"/>
+            <when state="linux_dead_diaeresis" output="̈́"/>
+        </action>
+        <action id="linux_u0028">
+            <when state="none" output="("/>
+            <when state="linux_dead_caron" output="₍"/>
+            <when state="linux_dead_circumflex" output="⁽"/>
+        </action>
+        <action id="linux_u0029">
+            <when state="none" output=")"/>
+            <when state="linux_dead_caron" output="₎"/>
+            <when state="linux_dead_circumflex" output="⁾"/>
+        </action>
+        <action id="linux_u002b">
+            <when state="none" output="+"/>
+            <when state="linux_dead_belowdot" output="⨥"/>
+            <when state="linux_dead_caron" output="₊"/>
+            <when state="linux_dead_circumflex" output="⁺"/>
+        </action>
+        <action id="linux_u002d">
+            <when state="none" output="-"/>
+            <when state="linux_dead_belowdot" output="⨪"/>
+            <when state="linux_dead_caron" output="₋"/>
+            <when state="linux_dead_circumflex" output="⁻"/>
+        </action>
+        <action id="linux_u002e">
+            <when state="none" output="."/>
+            <when state="linux_dead_circumflex" output="·"/>
+        </action>
+        <action id="linux_u0030">
+            <when state="none" output="0"/>
+            <when state="linux_dead_caron" output="₀"/>
+            <when state="linux_dead_circumflex" output="⁰"/>
+        </action>
+        <action id="linux_u0031">
+            <when state="none" output="1"/>
+            <when state="linux_dead_caron" output="₁"/>
+            <when state="linux_dead_circumflex" output="¹"/>
+        </action>
+        <action id="linux_u0032">
+            <when state="none" output="2"/>
+            <when state="linux_dead_caron" output="₂"/>
+            <when state="linux_dead_circumflex" output="²"/>
+            <when state="linux_dead_stroke" output="ƻ"/>
+        </action>
+        <action id="linux_u0033">
+            <when state="none" output="3"/>
+            <when state="linux_dead_caron" output="₃"/>
+            <when state="linux_dead_circumflex" output="³"/>
+        </action>
+        <action id="linux_u0034">
+            <when state="none" output="4"/>
+            <when state="linux_dead_caron" output="₄"/>
+            <when state="linux_dead_circumflex" output="⁴"/>
+        </action>
+        <action id="linux_u0035">
+            <when state="none" output="5"/>
+            <when state="linux_dead_caron" output="₅"/>
+            <when state="linux_dead_circumflex" output="⁵"/>
+        </action>
+        <action id="linux_u0036">
+            <when state="none" output="6"/>
+            <when state="linux_dead_caron" output="₆"/>
+            <when state="linux_dead_circumflex" output="⁶"/>
+        </action>
+        <action id="linux_u0037">
+            <when state="none" output="7"/>
+            <when state="linux_dead_caron" output="₇"/>
+            <when state="linux_dead_circumflex" output="⁷"/>
+        </action>
+        <action id="linux_u0038">
+            <when state="none" output="8"/>
+            <when state="linux_dead_caron" output="₈"/>
+            <when state="linux_dead_circumflex" output="⁸"/>
+        </action>
+        <action id="linux_u0039">
+            <when state="none" output="9"/>
+            <when state="linux_dead_caron" output="₉"/>
+            <when state="linux_dead_circumflex" output="⁹"/>
+        </action>
+        <action id="linux_u003c">
+            <when state="none" output="&lt;"/>
+            <when state="linux_dead_stroke" output="≮"/>
+            <when state="linux_dead_tilde" output="≲"/>
+        </action>
+        <action id="linux_u003d">
+            <when state="none" output="="/>
+            <when state="linux_dead_belowdot" output="⩦"/>
+            <when state="linux_dead_caron" output="₌"/>
+            <when state="linux_dead_circumflex" output="⁼"/>
+            <when state="linux_dead_stroke" output="≠"/>
+            <when state="linux_dead_tilde" output="≃"/>
+        </action>
+        <action id="linux_u003e">
+            <when state="none" output="&gt;"/>
+            <when state="linux_dead_stroke" output="≯"/>
+            <when state="linux_dead_tilde" output="≳"/>
+        </action>
+        <action id="linux_u0041">
+            <when state="none" output="A"/>
+            <when state="linux_dead_abovedot" output="Ȧ"/>
+            <when state="linux_dead_abovering" output="Å"/>
+            <when state="linux_dead_acute" output="Á"/>
+            <when state="linux_dead_belowdot" output="Ạ"/>
+            <when state="linux_dead_breve" output="Ă"/>
+            <when state="linux_dead_caron" output="Ǎ"/>
+            <when state="linux_dead_circumflex" output="Â"/>
+            <when state="linux_dead_diaeresis" output="Ä"/>
+            <when state="linux_dead_grave" output="À"/>
+            <when state="linux_dead_hook" output="Ả"/>
+            <when state="linux_dead_macron" output="Ā"/>
+            <when state="linux_dead_ogonek" output="Ą"/>
+            <when state="linux_dead_stroke" output="Ⱥ"/>
+            <when state="linux_dead_tilde" output="Ã"/>
+        </action>
+        <action id="linux_u0042">
+            <when state="none" output="B"/>
+            <when state="linux_dead_abovedot" output="Ḃ"/>
+            <when state="linux_dead_belowdot" output="Ḅ"/>
+            <when state="linux_dead_hook" output="Ɓ"/>
+            <when state="linux_dead_stroke" output="Ƀ"/>
+        </action>
+        <action id="linux_u0043">
+            <when state="none" output="C"/>
+            <when state="linux_dead_abovedot" output="Ċ"/>
+            <when state="linux_dead_acute" output="Ć"/>
+            <when state="linux_dead_caron" output="Č"/>
+            <when state="linux_dead_cedilla" output="Ç"/>
+            <when state="linux_dead_circumflex" output="Ĉ"/>
+            <when state="linux_dead_hook" output="Ƈ"/>
+            <when state="linux_dead_stroke" output="Ȼ"/>
+        </action>
+        <action id="linux_u0044">
+            <when state="none" output="D"/>
+            <when state="linux_dead_abovedot" output="Ḋ"/>
+            <when state="linux_dead_belowdot" output="Ḍ"/>
+            <when state="linux_dead_caron" output="Ď"/>
+            <when state="linux_dead_cedilla" output="Ḑ"/>
+            <when state="linux_dead_hook" output="Ɗ"/>
+            <when state="linux_dead_stroke" output="Đ"/>
+        </action>
+        <action id="linux_u0045">
+            <when state="none" output="E"/>
+            <when state="linux_dead_abovedot" output="Ė"/>
+            <when state="linux_dead_acute" output="É"/>
+            <when state="linux_dead_belowdot" output="Ẹ"/>
+            <when state="linux_dead_breve" output="Ĕ"/>
+            <when state="linux_dead_caron" output="Ě"/>
+            <when state="linux_dead_cedilla" output="Ȩ"/>
+            <when state="linux_dead_circumflex" output="Ê"/>
+            <when state="linux_dead_diaeresis" output="Ë"/>
+            <when state="linux_dead_grave" output="È"/>
+            <when state="linux_dead_hook" output="Ẻ"/>
+            <when state="linux_dead_macron" output="Ē"/>
+            <when state="linux_dead_ogonek" output="Ę"/>
+            <when state="linux_dead_stroke" output="Ɇ"/>
+            <when state="linux_dead_tilde" output="Ẽ"/>
+        </action>
+        <action id="linux_u0046">
+            <when state="none" output="F"/>
+            <when state="linux_dead_abovedot" output="Ḟ"/>
+            <when state="linux_dead_hook" output="Ƒ"/>
+        </action>
+        <action id="linux_u0047">
+            <when state="none" output="G"/>
+            <when state="linux_dead_abovedot" output="Ġ"/>
+            <when state="linux_dead_acute" output="Ǵ"/>
+            <when state="linux_dead_breve" output="Ğ"/>
+            <when state="linux_dead_caron" output="Ǧ"/>
+            <when state="linux_dead_cedilla" output="Ģ"/>
+            <when state="linux_dead_circumflex" output="Ĝ"/>
+            <when state="linux_dead_hook" output="Ɠ"/>
+            <when state="linux_dead_macron" output="Ḡ"/>
+            <when state="linux_dead_stroke" output="Ǥ"/>
+        </action>
+        <action id="linux_u0048">
+            <when state="none" output="H"/>
+            <when state="linux_dead_abovedot" output="Ḣ"/>
+            <when state="linux_dead_belowdot" output="Ḥ"/>
+            <when state="linux_dead_caron" output="Ȟ"/>
+            <when state="linux_dead_cedilla" output="Ḩ"/>
+            <when state="linux_dead_circumflex" output="Ĥ"/>
+            <when state="linux_dead_diaeresis" output="Ḧ"/>
+            <when state="linux_dead_stroke" output="Ħ"/>
+        </action>
+        <action id="linux_u0049">
+            <when state="none" output="I"/>
+            <when state="linux_dead_abovedot" output="İ"/>
+            <when state="linux_dead_acute" output="Í"/>
+            <when state="linux_dead_belowdot" output="Ị"/>
+            <when state="linux_dead_breve" output="Ĭ"/>
+            <when state="linux_dead_caron" output="Ǐ"/>
+            <when state="linux_dead_circumflex" output="Î"/>
+            <when state="linux_dead_diaeresis" output="Ï"/>
+            <when state="linux_dead_grave" output="Ì"/>
+            <when state="linux_dead_hook" output="Ỉ"/>
+            <when state="linux_dead_macron" output="Ī"/>
+            <when state="linux_dead_ogonek" output="Į"/>
+            <when state="linux_dead_stroke" output="Ɨ"/>
+            <when state="linux_dead_tilde" output="Ĩ"/>
+        </action>
+        <action id="linux_u004a">
+            <when state="none" output="J"/>
+            <when state="linux_dead_acute" output="J́"/>
+            <when state="linux_dead_circumflex" output="Ĵ"/>
+            <when state="linux_dead_stroke" output="Ɉ"/>
+        </action>
+        <action id="linux_u004b">
+            <when state="none" output="K"/>
+            <when state="linux_dead_acute" output="Ḱ"/>
+            <when state="linux_dead_belowdot" output="Ḳ"/>
+            <when state="linux_dead_caron" output="Ǩ"/>
+            <when state="linux_dead_cedilla" output="Ķ"/>
+            <when state="linux_dead_hook" output="Ƙ"/>
+        </action>
+        <action id="linux_u004c">
+            <when state="none" output="L"/>
+            <when state="linux_dead_abovedot" output="Ŀ"/>
+            <when state="linux_dead_acute" output="Ĺ"/>
+            <when state="linux_dead_belowdot" output="Ḷ"/>
+            <when state="linux_dead_caron" output="Ľ"/>
+            <when state="linux_dead_cedilla" output="Ļ"/>
+            <when state="linux_dead_stroke" output="Ł"/>
+        </action>
+        <action id="linux_u004d">
+            <when state="none" output="M"/>
+            <when state="linux_dead_abovedot" output="Ṁ"/>
+            <when state="linux_dead_acute" output="Ḿ"/>
+            <when state="linux_dead_belowdot" output="Ṃ"/>
+            <when state="linux_dead_grave" output="M̀"/>
+            <when state="linux_dead_hook" output="Ɱ"/>
+        </action>
+        <action id="linux_u004e">
+            <when state="none" output="N"/>
+            <when state="linux_dead_abovedot" output="Ṅ"/>
+            <when state="linux_dead_acute" output="Ń"/>
+            <when state="linux_dead_belowdot" output="Ṇ"/>
+            <when state="linux_dead_caron" output="Ň"/>
+            <when state="linux_dead_cedilla" output="Ņ"/>
+            <when state="linux_dead_grave" output="Ǹ"/>
+            <when state="linux_dead_hook" output="Ɲ"/>
+            <when state="linux_dead_tilde" output="Ñ"/>
+        </action>
+        <action id="linux_u004f">
+            <when state="none" output="O"/>
+            <when state="linux_dead_abovedot" output="Ȯ"/>
+            <when state="linux_dead_acute" output="Ó"/>
+            <when state="linux_dead_belowdot" output="Ọ"/>
+            <when state="linux_dead_breve" output="Ŏ"/>
+            <when state="linux_dead_caron" output="Ǒ"/>
+            <when state="linux_dead_circumflex" output="Ô"/>
+            <when state="linux_dead_diaeresis" output="Ö"/>
+            <when state="linux_dead_doubleacute" output="Ő"/>
+            <when state="linux_dead_grave" output="Ò"/>
+            <when state="linux_dead_hook" output="Ỏ"/>
+            <when state="linux_dead_horn" output="Ơ"/>
+            <when state="linux_dead_macron" output="Ō"/>
+            <when state="linux_dead_ogonek" output="Ǫ"/>
+            <when state="linux_dead_stroke" output="Ø"/>
+            <when state="linux_dead_tilde" output="Õ"/>
+        </action>
+        <action id="linux_u0050">
+            <when state="none" output="P"/>
+            <when state="linux_dead_abovedot" output="Ṗ"/>
+            <when state="linux_dead_acute" output="Ṕ"/>
+            <when state="linux_dead_hook" output="Ƥ"/>
+            <when state="linux_dead_stroke" output="Ᵽ"/>
+        </action>
+        <action id="linux_u0052">
+            <when state="none" output="R"/>
+            <when state="linux_dead_abovedot" output="Ṙ"/>
+            <when state="linux_dead_acute" output="Ŕ"/>
+            <when state="linux_dead_belowdot" output="Ṛ"/>
+            <when state="linux_dead_caron" output="Ř"/>
+            <when state="linux_dead_cedilla" output="Ŗ"/>
+            <when state="linux_dead_stroke" output="Ɍ"/>
+        </action>
+        <action id="linux_u0053">
+            <when state="none" output="S"/>
+            <when state="linux_dead_abovedot" output="Ṡ"/>
+            <when state="linux_dead_acute" output="Ś"/>
+            <when state="linux_dead_belowdot" output="Ṣ"/>
+            <when state="linux_dead_caron" output="Š"/>
+            <when state="linux_dead_cedilla" output="Ş"/>
+            <when state="linux_dead_circumflex" output="Ŝ"/>
+        </action>
+        <action id="linux_u0054">
+            <when state="none" output="T"/>
+            <when state="linux_dead_abovedot" output="Ṫ"/>
+            <when state="linux_dead_belowdot" output="Ṭ"/>
+            <when state="linux_dead_caron" output="Ť"/>
+            <when state="linux_dead_cedilla" output="Ţ"/>
+            <when state="linux_dead_hook" output="Ƭ"/>
+            <when state="linux_dead_stroke" output="Ŧ"/>
+        </action>
+        <action id="linux_u0055">
+            <when state="none" output="U"/>
+            <when state="linux_dead_abovering" output="Ů"/>
+            <when state="linux_dead_acute" output="Ú"/>
+            <when state="linux_dead_belowdot" output="Ụ"/>
+            <when state="linux_dead_breve" output="Ŭ"/>
+            <when state="linux_dead_caron" output="Ǔ"/>
+            <when state="linux_dead_circumflex" output="Û"/>
+            <when state="linux_dead_diaeresis" output="Ü"/>
+            <when state="linux_dead_doubleacute" output="Ű"/>
+            <when state="linux_dead_grave" output="Ù"/>
+            <when state="linux_dead_hook" output="Ủ"/>
+            <when state="linux_dead_horn" output="Ư"/>
+            <when state="linux_dead_macron" output="Ū"/>
+            <when state="linux_dead_ogonek" output="Ų"/>
+            <when state="linux_dead_stroke" output="Ʉ"/>
+            <when state="linux_dead_tilde" output="Ũ"/>
+        </action>
+        <action id="linux_u0056">
+            <when state="none" output="V"/>
+            <when state="linux_dead_acute" output="Ǘ"/>
+            <when state="linux_dead_belowdot" output="Ṿ"/>
+            <when state="linux_dead_caron" output="Ǚ"/>
+            <when state="linux_dead_grave" output="Ǜ"/>
+            <when state="linux_dead_hook" output="Ʋ"/>
+            <when state="linux_dead_macron" output="Ǖ"/>
+            <when state="linux_dead_tilde" output="Ṽ"/>
+        </action>
+        <action id="linux_u0057">
+            <when state="none" output="W"/>
+            <when state="linux_dead_abovedot" output="Ẇ"/>
+            <when state="linux_dead_acute" output="Ẃ"/>
+            <when state="linux_dead_belowdot" output="Ẉ"/>
+            <when state="linux_dead_circumflex" output="Ŵ"/>
+            <when state="linux_dead_diaeresis" output="Ẅ"/>
+            <when state="linux_dead_grave" output="Ẁ"/>
+            <when state="linux_dead_hook" output="Ⱳ"/>
+        </action>
+        <action id="linux_u0058">
+            <when state="none" output="X"/>
+            <when state="linux_dead_abovedot" output="Ẋ"/>
+            <when state="linux_dead_diaeresis" output="Ẍ"/>
+        </action>
+        <action id="linux_u0059">
+            <when state="none" output="Y"/>
+            <when state="linux_dead_abovedot" output="Ẏ"/>
+            <when state="linux_dead_acute" output="Ý"/>
+            <when state="linux_dead_belowdot" output="Ỵ"/>
+            <when state="linux_dead_circumflex" output="Ŷ"/>
+            <when state="linux_dead_diaeresis" output="Ÿ"/>
+            <when state="linux_dead_grave" output="Ỳ"/>
+            <when state="linux_dead_hook" output="Ỷ"/>
+            <when state="linux_dead_macron" output="Ȳ"/>
+            <when state="linux_dead_stroke" output="Ɏ"/>
+            <when state="linux_dead_tilde" output="Ỹ"/>
+        </action>
+        <action id="linux_u005a">
+            <when state="none" output="Z"/>
+            <when state="linux_dead_abovedot" output="Ż"/>
+            <when state="linux_dead_acute" output="Ź"/>
+            <when state="linux_dead_belowdot" output="Ẓ"/>
+            <when state="linux_dead_caron" output="Ž"/>
+            <when state="linux_dead_circumflex" output="Ẑ"/>
+            <when state="linux_dead_hook" output="Ȥ"/>
+            <when state="linux_dead_stroke" output="Ƶ"/>
+        </action>
+        <action id="linux_u0061">
+            <when state="none" output="a"/>
+            <when state="linux_dead_abovedot" output="ȧ"/>
+            <when state="linux_dead_abovering" output="å"/>
+            <when state="linux_dead_acute" output="á"/>
+            <when state="linux_dead_belowdot" output="ạ"/>
+            <when state="linux_dead_breve" output="ă"/>
+            <when state="linux_dead_caron" output="ǎ"/>
+            <when state="linux_dead_circumflex" output="â"/>
+            <when state="linux_dead_diaeresis" output="ä"/>
+            <when state="linux_dead_grave" output="à"/>
+            <when state="linux_dead_hook" output="ả"/>
+            <when state="linux_dead_macron" output="ā"/>
+            <when state="linux_dead_ogonek" output="ą"/>
+            <when state="linux_dead_stroke" output="ⱥ"/>
+            <when state="linux_dead_tilde" output="ã"/>
+        </action>
+        <action id="linux_u0062">
+            <when state="none" output="b"/>
+            <when state="linux_dead_abovedot" output="ḃ"/>
+            <when state="linux_dead_belowdot" output="ḅ"/>
+            <when state="linux_dead_hook" output="ɓ"/>
+            <when state="linux_dead_stroke" output="ƀ"/>
+        </action>
+        <action id="linux_u0063">
+            <when state="none" output="c"/>
+            <when state="linux_dead_abovedot" output="ċ"/>
+            <when state="linux_dead_acute" output="ć"/>
+            <when state="linux_dead_caron" output="č"/>
+            <when state="linux_dead_cedilla" output="ç"/>
+            <when state="linux_dead_circumflex" output="ĉ"/>
+            <when state="linux_dead_hook" output="ƈ"/>
+            <when state="linux_dead_stroke" output="ȼ"/>
+        </action>
+        <action id="linux_u0064">
+            <when state="none" output="d"/>
+            <when state="linux_dead_abovedot" output="ḋ"/>
+            <when state="linux_dead_belowdot" output="ḍ"/>
+            <when state="linux_dead_caron" output="ď"/>
+            <when state="linux_dead_cedilla" output="ḑ"/>
+            <when state="linux_dead_hook" output="ɗ"/>
+            <when state="linux_dead_stroke" output="đ"/>
+        </action>
+        <action id="linux_u0065">
+            <when state="none" output="e"/>
+            <when state="linux_dead_abovedot" output="ė"/>
+            <when state="linux_dead_acute" output="é"/>
+            <when state="linux_dead_belowdot" output="ẹ"/>
+            <when state="linux_dead_breve" output="ĕ"/>
+            <when state="linux_dead_caron" output="ě"/>
+            <when state="linux_dead_cedilla" output="ȩ"/>
+            <when state="linux_dead_circumflex" output="ê"/>
+            <when state="linux_dead_diaeresis" output="ë"/>
+            <when state="linux_dead_grave" output="è"/>
+            <when state="linux_dead_hook" output="ẻ"/>
+            <when state="linux_dead_macron" output="ē"/>
+            <when state="linux_dead_ogonek" output="ę"/>
+            <when state="linux_dead_stroke" output="ɇ"/>
+            <when state="linux_dead_tilde" output="ẽ"/>
+        </action>
+        <action id="linux_u0066">
+            <when state="none" output="f"/>
+            <when state="linux_dead_abovedot" output="ḟ"/>
+            <when state="linux_dead_hook" output="ƒ"/>
+        </action>
+        <action id="linux_u0067">
+            <when state="none" output="g"/>
+            <when state="linux_dead_abovedot" output="ġ"/>
+            <when state="linux_dead_acute" output="ǵ"/>
+            <when state="linux_dead_breve" output="ğ"/>
+            <when state="linux_dead_caron" output="ǧ"/>
+            <when state="linux_dead_cedilla" output="ģ"/>
+            <when state="linux_dead_circumflex" output="ĝ"/>
+            <when state="linux_dead_hook" output="ɠ"/>
+            <when state="linux_dead_macron" output="ḡ"/>
+            <when state="linux_dead_stroke" output="ǥ"/>
+        </action>
+        <action id="linux_u0068">
+            <when state="none" output="h"/>
+            <when state="linux_dead_abovedot" output="ḣ"/>
+            <when state="linux_dead_belowdot" output="ḥ"/>
+            <when state="linux_dead_caron" output="ȟ"/>
+            <when state="linux_dead_cedilla" output="ḩ"/>
+            <when state="linux_dead_circumflex" output="ĥ"/>
+            <when state="linux_dead_diaeresis" output="ḧ"/>
+            <when state="linux_dead_hook" output="ɦ"/>
+            <when state="linux_dead_stroke" output="ħ"/>
+        </action>
+        <action id="linux_u0069">
+            <when state="none" output="i"/>
+            <when state="linux_dead_abovedot" output="ı"/>
+            <when state="linux_dead_acute" output="í"/>
+            <when state="linux_dead_belowdot" output="ị"/>
+            <when state="linux_dead_breve" output="ĭ"/>
+            <when state="linux_dead_caron" output="ǐ"/>
+            <when state="linux_dead_circumflex" output="î"/>
+            <when state="linux_dead_diaeresis" output="ï"/>
+            <when state="linux_dead_grave" output="ì"/>
+            <when state="linux_dead_hook" output="ỉ"/>
+            <when state="linux_dead_macron" output="ī"/>
+            <when state="linux_dead_ogonek" output="į"/>
+            <when state="linux_dead_stroke" output="ɨ"/>
+            <when state="linux_dead_tilde" output="ĩ"/>
+        </action>
+        <action id="linux_u006a">
+            <when state="none" output="j"/>
+            <when state="linux_dead_abovedot" output="ȷ"/>
+            <when state="linux_dead_acute" output="j́"/>
+            <when state="linux_dead_caron" output="ǰ"/>
+            <when state="linux_dead_circumflex" output="ĵ"/>
+            <when state="linux_dead_stroke" output="ɉ"/>
+        </action>
+        <action id="linux_u006b">
+            <when state="none" output="k"/>
+            <when state="linux_dead_acute" output="ḱ"/>
+            <when state="linux_dead_belowdot" output="ḳ"/>
+            <when state="linux_dead_caron" output="ǩ"/>
+            <when state="linux_dead_cedilla" output="ķ"/>
+            <when state="linux_dead_hook" output="ƙ"/>
+        </action>
+        <action id="linux_u006c">
+            <when state="none" output="l"/>
+            <when state="linux_dead_abovedot" output="ŀ"/>
+            <when state="linux_dead_acute" output="ĺ"/>
+            <when state="linux_dead_belowdot" output="ḷ"/>
+            <when state="linux_dead_caron" output="ľ"/>
+            <when state="linux_dead_cedilla" output="ļ"/>
+            <when state="linux_dead_stroke" output="ł"/>
+        </action>
+        <action id="linux_u006d">
+            <when state="none" output="m"/>
+            <when state="linux_dead_abovedot" output="ṁ"/>
+            <when state="linux_dead_acute" output="ḿ"/>
+            <when state="linux_dead_belowdot" output="ṃ"/>
+            <when state="linux_dead_grave" output="m̀"/>
+            <when state="linux_dead_hook" output="ɱ"/>
+        </action>
+        <action id="linux_u006e">
+            <when state="none" output="n"/>
+            <when state="linux_dead_abovedot" output="ṅ"/>
+            <when state="linux_dead_acute" output="ń"/>
+            <when state="linux_dead_belowdot" output="ṇ"/>
+            <when state="linux_dead_caron" output="ň"/>
+            <when state="linux_dead_cedilla" output="ņ"/>
+            <when state="linux_dead_grave" output="ǹ"/>
+            <when state="linux_dead_hook" output="ɲ"/>
+            <when state="linux_dead_tilde" output="ñ"/>
+        </action>
+        <action id="linux_u006f">
+            <when state="none" output="o"/>
+            <when state="linux_dead_abovedot" output="ȯ"/>
+            <when state="linux_dead_acute" output="ó"/>
+            <when state="linux_dead_belowdot" output="ọ"/>
+            <when state="linux_dead_breve" output="ŏ"/>
+            <when state="linux_dead_caron" output="ǒ"/>
+            <when state="linux_dead_circumflex" output="ô"/>
+            <when state="linux_dead_diaeresis" output="ö"/>
+            <when state="linux_dead_doubleacute" output="ő"/>
+            <when state="linux_dead_grave" output="ò"/>
+            <when state="linux_dead_hook" output="ỏ"/>
+            <when state="linux_dead_horn" output="ơ"/>
+            <when state="linux_dead_macron" output="ō"/>
+            <when state="linux_dead_ogonek" output="ǫ"/>
+            <when state="linux_dead_stroke" output="ø"/>
+            <when state="linux_dead_tilde" output="õ"/>
+        </action>
+        <action id="linux_u0070">
+            <when state="none" output="p"/>
+            <when state="linux_dead_abovedot" output="ṗ"/>
+            <when state="linux_dead_acute" output="ṕ"/>
+            <when state="linux_dead_hook" output="ƥ"/>
+            <when state="linux_dead_stroke" output="ᵽ"/>
+        </action>
+        <action id="linux_u0071">
+            <when state="none" output="q"/>
+            <when state="linux_dead_hook" output="ʠ"/>
+        </action>
+        <action id="linux_u0072">
+            <when state="none" output="r"/>
+            <when state="linux_dead_abovedot" output="ṙ"/>
+            <when state="linux_dead_acute" output="ŕ"/>
+            <when state="linux_dead_belowdot" output="ṛ"/>
+            <when state="linux_dead_caron" output="ř"/>
+            <when state="linux_dead_cedilla" output="ŗ"/>
+            <when state="linux_dead_hook" output="ɼ"/>
+            <when state="linux_dead_stroke" output="ɍ"/>
+        </action>
+        <action id="linux_u0073">
+            <when state="none" output="s"/>
+            <when state="linux_dead_abovedot" output="ṡ"/>
+            <when state="linux_dead_acute" output="ś"/>
+            <when state="linux_dead_belowdot" output="ṣ"/>
+            <when state="linux_dead_caron" output="š"/>
+            <when state="linux_dead_cedilla" output="ş"/>
+            <when state="linux_dead_circumflex" output="ŝ"/>
+            <when state="linux_dead_hook" output="ʂ"/>
+        </action>
+        <action id="linux_u0074">
+            <when state="none" output="t"/>
+            <when state="linux_dead_abovedot" output="ṫ"/>
+            <when state="linux_dead_belowdot" output="ṭ"/>
+            <when state="linux_dead_caron" output="ť"/>
+            <when state="linux_dead_cedilla" output="ţ"/>
+            <when state="linux_dead_diaeresis" output="ẗ"/>
+            <when state="linux_dead_hook" output="ƭ"/>
+            <when state="linux_dead_stroke" output="ŧ"/>
+        </action>
+        <action id="linux_u0075">
+            <when state="none" output="u"/>
+            <when state="linux_dead_abovering" output="ů"/>
+            <when state="linux_dead_acute" output="ú"/>
+            <when state="linux_dead_belowdot" output="ụ"/>
+            <when state="linux_dead_breve" output="ŭ"/>
+            <when state="linux_dead_caron" output="ǔ"/>
+            <when state="linux_dead_circumflex" output="û"/>
+            <when state="linux_dead_diaeresis" output="ü"/>
+            <when state="linux_dead_doubleacute" output="ű"/>
+            <when state="linux_dead_grave" output="ù"/>
+            <when state="linux_dead_hook" output="ủ"/>
+            <when state="linux_dead_horn" output="ư"/>
+            <when state="linux_dead_macron" output="ū"/>
+            <when state="linux_dead_ogonek" output="ų"/>
+            <when state="linux_dead_stroke" output="ʉ"/>
+            <when state="linux_dead_tilde" output="ũ"/>
+        </action>
+        <action id="linux_u0076">
+            <when state="none" output="v"/>
+            <when state="linux_dead_acute" output="ǘ"/>
+            <when state="linux_dead_belowdot" output="ṿ"/>
+            <when state="linux_dead_caron" output="ǚ"/>
+            <when state="linux_dead_grave" output="ǜ"/>
+            <when state="linux_dead_hook" output="ʋ"/>
+            <when state="linux_dead_macron" output="ǖ"/>
+            <when state="linux_dead_tilde" output="ṽ"/>
+        </action>
+        <action id="linux_u0077">
+            <when state="none" output="w"/>
+            <when state="linux_dead_abovedot" output="ẇ"/>
+            <when state="linux_dead_abovering" output="ẘ"/>
+            <when state="linux_dead_acute" output="ẃ"/>
+            <when state="linux_dead_belowdot" output="ẉ"/>
+            <when state="linux_dead_circumflex" output="ŵ"/>
+            <when state="linux_dead_diaeresis" output="ẅ"/>
+            <when state="linux_dead_grave" output="ẁ"/>
+            <when state="linux_dead_hook" output="ⱳ"/>
+        </action>
+        <action id="linux_u0078">
+            <when state="none" output="x"/>
+            <when state="linux_dead_abovedot" output="ẋ"/>
+            <when state="linux_dead_diaeresis" output="ẍ"/>
+        </action>
+        <action id="linux_u0079">
+            <when state="none" output="y"/>
+            <when state="linux_dead_abovedot" output="ẏ"/>
+            <when state="linux_dead_abovering" output="ẙ"/>
+            <when state="linux_dead_acute" output="ý"/>
+            <when state="linux_dead_belowdot" output="ỵ"/>
+            <when state="linux_dead_circumflex" output="ŷ"/>
+            <when state="linux_dead_diaeresis" output="ÿ"/>
+            <when state="linux_dead_grave" output="ỳ"/>
+            <when state="linux_dead_hook" output="ỷ"/>
+            <when state="linux_dead_macron" output="ȳ"/>
+            <when state="linux_dead_stroke" output="ɏ"/>
+            <when state="linux_dead_tilde" output="ỹ"/>
+        </action>
+        <action id="linux_u007a">
+            <when state="none" output="z"/>
+            <when state="linux_dead_abovedot" output="ż"/>
+            <when state="linux_dead_acute" output="ź"/>
+            <when state="linux_dead_belowdot" output="ẓ"/>
+            <when state="linux_dead_caron" output="ž"/>
+            <when state="linux_dead_circumflex" output="ẑ"/>
+            <when state="linux_dead_hook" output="ȥ"/>
+            <when state="linux_dead_stroke" output="ƶ"/>
+        </action>
+        <action id="linux_u00a0">
+            <when state="none" output=" "/>
+            <when state="linux_dead_abovedot" output="̇"/>
+            <when state="linux_dead_abovering" output="̊"/>
+            <when state="linux_dead_acute" output="́"/>
+            <when state="linux_dead_belowdot" output="̣"/>
+            <when state="linux_dead_breve" output="̆"/>
+            <when state="linux_dead_caron" output="̌"/>
+            <when state="linux_dead_cedilla" output="̧"/>
+            <when state="linux_dead_circumflex" output="̂"/>
+            <when state="linux_dead_diaeresis" output="̈"/>
+            <when state="linux_dead_doubleacute" output="̋"/>
+            <when state="linux_dead_grave" output="̀"/>
+            <when state="linux_dead_hook" output="̉"/>
+            <when state="linux_dead_horn" output="̛"/>
+            <when state="linux_dead_macron" output="̄"/>
+            <when state="linux_dead_ogonek" output="̨"/>
+            <when state="linux_dead_stroke" output="̸"/>
+            <when state="linux_dead_tilde" output="̃"/>
+        </action>
+        <action id="linux_u00a2">
+            <when state="none" output="¢"/>
+            <when state="linux_dead_cedilla" output="₵"/>
+        </action>
+        <action id="linux_u00b4">
+            <when state="none" output="´"/>
+            <when state="linux_dead_diaeresis" output="̈́"/>
+        </action>
+        <action id="linux_u00c0">
+            <when state="none" output="À"/>
+            <when state="linux_dead_breve" output="Ằ"/>
+            <when state="linux_dead_circumflex" output="Ầ"/>
+        </action>
+        <action id="linux_u00c1">
+            <when state="none" output="Á"/>
+            <when state="linux_dead_abovering" output="Ǻ"/>
+            <when state="linux_dead_breve" output="Ắ"/>
+            <when state="linux_dead_circumflex" output="Ấ"/>
+        </action>
+        <action id="linux_u00c2">
+            <when state="none" output="Â"/>
+            <when state="linux_dead_acute" output="Ấ"/>
+            <when state="linux_dead_belowdot" output="Ậ"/>
+            <when state="linux_dead_grave" output="Ầ"/>
+            <when state="linux_dead_hook" output="Ẩ"/>
+            <when state="linux_dead_tilde" output="Ẫ"/>
+        </action>
+        <action id="linux_u00c3">
+            <when state="none" output="Ã"/>
+            <when state="linux_dead_breve" output="Ẵ"/>
+            <when state="linux_dead_circumflex" output="Ẫ"/>
+        </action>
+        <action id="linux_u00c4">
+            <when state="none" output="Ä"/>
+            <when state="linux_dead_macron" output="Ǟ"/>
+        </action>
+        <action id="linux_u00c5">
+            <when state="none" output="Å"/>
+            <when state="linux_dead_acute" output="Ǻ"/>
+        </action>
+        <action id="linux_u00c6">
+            <when state="none" output="Æ"/>
+            <when state="linux_dead_acute" output="Ǽ"/>
+            <when state="linux_dead_macron" output="Ǣ"/>
+        </action>
+        <action id="linux_u00c7">
+            <when state="none" output="Ç"/>
+            <when state="linux_dead_acute" output="Ḉ"/>
+        </action>
+        <action id="linux_u00c8">
+            <when state="none" output="È"/>
+            <when state="linux_dead_circumflex" output="Ề"/>
+            <when state="linux_dead_macron" output="Ḕ"/>
+        </action>
+        <action id="linux_u00c9">
+            <when state="none" output="É"/>
+            <when state="linux_dead_circumflex" output="Ế"/>
+            <when state="linux_dead_macron" output="Ḗ"/>
+        </action>
+        <action id="linux_u00ca">
+            <when state="none" output="Ê"/>
+            <when state="linux_dead_acute" output="Ế"/>
+            <when state="linux_dead_belowdot" output="Ệ"/>
+            <when state="linux_dead_grave" output="Ề"/>
+            <when state="linux_dead_hook" output="Ể"/>
+            <when state="linux_dead_tilde" output="Ễ"/>
+        </action>
+        <action id="linux_u00cd">
+            <when state="none" output="Í"/>
+            <when state="linux_dead_diaeresis" output="Ḯ"/>
+        </action>
+        <action id="linux_u00cf">
+            <when state="none" output="Ï"/>
+            <when state="linux_dead_acute" output="Ḯ"/>
+        </action>
+        <action id="linux_u00d2">
+            <when state="none" output="Ò"/>
+            <when state="linux_dead_circumflex" output="Ồ"/>
+            <when state="linux_dead_horn" output="Ờ"/>
+            <when state="linux_dead_macron" output="Ṑ"/>
+        </action>
+        <action id="linux_u00d3">
+            <when state="none" output="Ó"/>
+            <when state="linux_dead_circumflex" output="Ố"/>
+            <when state="linux_dead_horn" output="Ớ"/>
+            <when state="linux_dead_macron" output="Ṓ"/>
+            <when state="linux_dead_stroke" output="Ǿ"/>
+            <when state="linux_dead_tilde" output="Ṍ"/>
+        </action>
+        <action id="linux_u00d4">
+            <when state="none" output="Ô"/>
+            <when state="linux_dead_acute" output="Ố"/>
+            <when state="linux_dead_belowdot" output="Ộ"/>
+            <when state="linux_dead_grave" output="Ồ"/>
+            <when state="linux_dead_hook" output="Ổ"/>
+            <when state="linux_dead_tilde" output="Ỗ"/>
+        </action>
+        <action id="linux_u00d5">
+            <when state="none" output="Õ"/>
+            <when state="linux_dead_acute" output="Ṍ"/>
+            <when state="linux_dead_circumflex" output="Ỗ"/>
+            <when state="linux_dead_diaeresis" output="Ṏ"/>
+            <when state="linux_dead_macron" output="Ȭ"/>
+        </action>
+        <action id="linux_u00d6">
+            <when state="none" output="Ö"/>
+            <when state="linux_dead_macron" output="Ȫ"/>
+            <when state="linux_dead_tilde" output="Ṏ"/>
+        </action>
+        <action id="linux_u00d8">
+            <when state="none" output="Ø"/>
+            <when state="linux_dead_acute" output="Ǿ"/>
+        </action>
+        <action id="linux_u00d9">
+            <when state="none" output="Ù"/>
+            <when state="linux_dead_diaeresis" output="Ǜ"/>
+            <when state="linux_dead_horn" output="Ừ"/>
+        </action>
+        <action id="linux_u00da">
+            <when state="none" output="Ú"/>
+            <when state="linux_dead_diaeresis" output="Ǘ"/>
+            <when state="linux_dead_horn" output="Ứ"/>
+            <when state="linux_dead_tilde" output="Ṹ"/>
+        </action>
+        <action id="linux_u00dc">
+            <when state="none" output="Ü"/>
+            <when state="linux_dead_acute" output="Ǘ"/>
+            <when state="linux_dead_caron" output="Ǚ"/>
+            <when state="linux_dead_grave" output="Ǜ"/>
+            <when state="linux_dead_macron" output="Ǖ"/>
+        </action>
+        <action id="linux_u00e0">
+            <when state="none" output="à"/>
+            <when state="linux_dead_breve" output="ằ"/>
+            <when state="linux_dead_circumflex" output="ầ"/>
+        </action>
+        <action id="linux_u00e1">
+            <when state="none" output="á"/>
+            <when state="linux_dead_abovering" output="ǻ"/>
+            <when state="linux_dead_breve" output="ắ"/>
+            <when state="linux_dead_circumflex" output="ấ"/>
+        </action>
+        <action id="linux_u00e2">
+            <when state="none" output="â"/>
+            <when state="linux_dead_acute" output="ấ"/>
+            <when state="linux_dead_belowdot" output="ậ"/>
+            <when state="linux_dead_grave" output="ầ"/>
+            <when state="linux_dead_hook" output="ẩ"/>
+            <when state="linux_dead_tilde" output="ẫ"/>
+        </action>
+        <action id="linux_u00e3">
+            <when state="none" output="ã"/>
+            <when state="linux_dead_breve" output="ẵ"/>
+            <when state="linux_dead_circumflex" output="ẫ"/>
+        </action>
+        <action id="linux_u00e4">
+            <when state="none" output="ä"/>
+            <when state="linux_dead_macron" output="ǟ"/>
+        </action>
+        <action id="linux_u00e5">
+            <when state="none" output="å"/>
+            <when state="linux_dead_acute" output="ǻ"/>
+        </action>
+        <action id="linux_u00e6">
+            <when state="none" output="æ"/>
+            <when state="linux_dead_acute" output="ǽ"/>
+            <when state="linux_dead_macron" output="ǣ"/>
+        </action>
+        <action id="linux_u00e7">
+            <when state="none" output="ç"/>
+            <when state="linux_dead_acute" output="ḉ"/>
+        </action>
+        <action id="linux_u00e8">
+            <when state="none" output="è"/>
+            <when state="linux_dead_circumflex" output="ề"/>
+            <when state="linux_dead_macron" output="ḕ"/>
+        </action>
+        <action id="linux_u00e9">
+            <when state="none" output="é"/>
+            <when state="linux_dead_circumflex" output="ế"/>
+            <when state="linux_dead_macron" output="ḗ"/>
+        </action>
+        <action id="linux_u00ea">
+            <when state="none" output="ê"/>
+            <when state="linux_dead_acute" output="ế"/>
+            <when state="linux_dead_belowdot" output="ệ"/>
+            <when state="linux_dead_grave" output="ề"/>
+            <when state="linux_dead_hook" output="ể"/>
+            <when state="linux_dead_tilde" output="ễ"/>
+        </action>
+        <action id="linux_u00ed">
+            <when state="none" output="í"/>
+            <when state="linux_dead_diaeresis" output="ḯ"/>
+        </action>
+        <action id="linux_u00ef">
+            <when state="none" output="ï"/>
+            <when state="linux_dead_acute" output="ḯ"/>
+        </action>
+        <action id="linux_u00f2">
+            <when state="none" output="ò"/>
+            <when state="linux_dead_circumflex" output="ồ"/>
+            <when state="linux_dead_horn" output="ờ"/>
+            <when state="linux_dead_macron" output="ṑ"/>
+        </action>
+        <action id="linux_u00f3">
+            <when state="none" output="ó"/>
+            <when state="linux_dead_circumflex" output="ố"/>
+            <when state="linux_dead_horn" output="ớ"/>
+            <when state="linux_dead_macron" output="ṓ"/>
+            <when state="linux_dead_stroke" output="ǿ"/>
+            <when state="linux_dead_tilde" output="ṍ"/>
+        </action>
+        <action id="linux_u00f4">
+            <when state="none" output="ô"/>
+            <when state="linux_dead_acute" output="ố"/>
+            <when state="linux_dead_belowdot" output="ộ"/>
+            <when state="linux_dead_grave" output="ồ"/>
+            <when state="linux_dead_hook" output="ổ"/>
+            <when state="linux_dead_tilde" output="ỗ"/>
+        </action>
+        <action id="linux_u00f5">
+            <when state="none" output="õ"/>
+            <when state="linux_dead_acute" output="ṍ"/>
+            <when state="linux_dead_circumflex" output="ỗ"/>
+            <when state="linux_dead_diaeresis" output="ṏ"/>
+            <when state="linux_dead_macron" output="ȭ"/>
+        </action>
+        <action id="linux_u00f6">
+            <when state="none" output="ö"/>
+            <when state="linux_dead_macron" output="ȫ"/>
+            <when state="linux_dead_tilde" output="ṏ"/>
+        </action>
+        <action id="linux_u00f8">
+            <when state="none" output="ø"/>
+            <when state="linux_dead_acute" output="ǿ"/>
+        </action>
+        <action id="linux_u00f9">
+            <when state="none" output="ù"/>
+            <when state="linux_dead_diaeresis" output="ǜ"/>
+            <when state="linux_dead_horn" output="ừ"/>
+        </action>
+        <action id="linux_u00fa">
+            <when state="none" output="ú"/>
+            <when state="linux_dead_diaeresis" output="ǘ"/>
+            <when state="linux_dead_horn" output="ứ"/>
+            <when state="linux_dead_tilde" output="ṹ"/>
+        </action>
+        <action id="linux_u00fc">
+            <when state="none" output="ü"/>
+            <when state="linux_dead_acute" output="ǘ"/>
+            <when state="linux_dead_caron" output="ǚ"/>
+            <when state="linux_dead_grave" output="ǜ"/>
+            <when state="linux_dead_macron" output="ǖ"/>
+        </action>
+        <action id="linux_u0102">
+            <when state="none" output="Ă"/>
+            <when state="linux_dead_acute" output="Ắ"/>
+            <when state="linux_dead_belowdot" output="Ặ"/>
+            <when state="linux_dead_grave" output="Ằ"/>
+            <when state="linux_dead_hook" output="Ẳ"/>
+            <when state="linux_dead_tilde" output="Ẵ"/>
+        </action>
+        <action id="linux_u0103">
+            <when state="none" output="ă"/>
+            <when state="linux_dead_acute" output="ắ"/>
+            <when state="linux_dead_belowdot" output="ặ"/>
+            <when state="linux_dead_grave" output="ằ"/>
+            <when state="linux_dead_hook" output="ẳ"/>
+            <when state="linux_dead_tilde" output="ẵ"/>
+        </action>
+        <action id="linux_u0106">
+            <when state="none" output="Ć"/>
+            <when state="linux_dead_cedilla" output="Ḉ"/>
+        </action>
+        <action id="linux_u0107">
+            <when state="none" output="ć"/>
+            <when state="linux_dead_cedilla" output="ḉ"/>
+        </action>
+        <action id="linux_u0112">
+            <when state="none" output="Ē"/>
+            <when state="linux_dead_acute" output="Ḗ"/>
+            <when state="linux_dead_grave" output="Ḕ"/>
+        </action>
+        <action id="linux_u0113">
+            <when state="none" output="ē"/>
+            <when state="linux_dead_acute" output="ḗ"/>
+            <when state="linux_dead_grave" output="ḕ"/>
+        </action>
+        <action id="linux_u0114">
+            <when state="none" output="Ĕ"/>
+            <when state="linux_dead_cedilla" output="Ḝ"/>
+        </action>
+        <action id="linux_u0115">
+            <when state="none" output="ĕ"/>
+            <when state="linux_dead_cedilla" output="ḝ"/>
+        </action>
+        <action id="linux_u014a">
+            <when state="none" output="Ŋ"/>
+            <when state="linux_dead_acute" output="Ŋ́"/>
+            <when state="linux_dead_grave" output="Ŋ̀"/>
+        </action>
+        <action id="linux_u014b">
+            <when state="none" output="ŋ"/>
+            <when state="linux_dead_acute" output="ŋ́"/>
+            <when state="linux_dead_grave" output="ŋ̀"/>
+        </action>
+        <action id="linux_u014c">
+            <when state="none" output="Ō"/>
+            <when state="linux_dead_acute" output="Ṓ"/>
+            <when state="linux_dead_grave" output="Ṑ"/>
+        </action>
+        <action id="linux_u014d">
+            <when state="none" output="ō"/>
+            <when state="linux_dead_acute" output="ṓ"/>
+            <when state="linux_dead_grave" output="ṑ"/>
+        </action>
+        <action id="linux_u015a">
+            <when state="none" output="Ś"/>
+            <when state="linux_dead_abovedot" output="Ṥ"/>
+        </action>
+        <action id="linux_u015b">
+            <when state="none" output="ś"/>
+            <when state="linux_dead_abovedot" output="ṥ"/>
+        </action>
+        <action id="linux_u0160">
+            <when state="none" output="Š"/>
+            <when state="linux_dead_abovedot" output="Ṧ"/>
+        </action>
+        <action id="linux_u0161">
+            <when state="none" output="š"/>
+            <when state="linux_dead_abovedot" output="ṧ"/>
+        </action>
+        <action id="linux_u0168">
+            <when state="none" output="Ũ"/>
+            <when state="linux_dead_acute" output="Ṹ"/>
+        </action>
+        <action id="linux_u0169">
+            <when state="none" output="ũ"/>
+            <when state="linux_dead_acute" output="ṹ"/>
+        </action>
+        <action id="linux_u016a">
+            <when state="none" output="Ū"/>
+            <when state="linux_dead_diaeresis" output="Ṻ"/>
+        </action>
+        <action id="linux_u016b">
+            <when state="none" output="ū"/>
+            <when state="linux_dead_diaeresis" output="ṻ"/>
+        </action>
+        <action id="linux_u017f">
+            <when state="none" output="ſ"/>
+            <when state="linux_dead_abovedot" output="ẛ"/>
+        </action>
+        <action id="linux_u0186">
+            <when state="none" output="Ɔ"/>
+            <when state="linux_dead_acute" output="Ɔ́"/>
+            <when state="linux_dead_caron" output="Ɔ̌"/>
+            <when state="linux_dead_circumflex" output="Ɔ̂"/>
+            <when state="linux_dead_grave" output="Ɔ̀"/>
+            <when state="linux_dead_macron" output="Ɔ̄"/>
+            <when state="linux_dead_tilde" output="Ɔ̃"/>
+        </action>
+        <action id="linux_u018e">
+            <when state="none" output="Ǝ"/>
+            <when state="linux_dead_acute" output="Ǝ́"/>
+            <when state="linux_dead_caron" output="Ǝ̌"/>
+            <when state="linux_dead_circumflex" output="Ǝ̂"/>
+            <when state="linux_dead_grave" output="Ǝ̀"/>
+            <when state="linux_dead_macron" output="Ǝ̄"/>
+            <when state="linux_dead_tilde" output="Ǝ̃"/>
+        </action>
+        <action id="linux_u0190">
+            <when state="none" output="Ɛ"/>
+            <when state="linux_dead_acute" output="Ɛ́"/>
+            <when state="linux_dead_caron" output="Ɛ̌"/>
+            <when state="linux_dead_circumflex" output="Ɛ̂"/>
+            <when state="linux_dead_grave" output="Ɛ̀"/>
+            <when state="linux_dead_macron" output="Ɛ̄"/>
+            <when state="linux_dead_tilde" output="Ɛ̃"/>
+        </action>
+        <action id="linux_u0196">
+            <when state="none" output="Ɩ"/>
+            <when state="linux_dead_acute" output="Ɩ́"/>
+            <when state="linux_dead_caron" output="Ɩ̌"/>
+            <when state="linux_dead_circumflex" output="Ɩ̂"/>
+            <when state="linux_dead_grave" output="Ɩ̀"/>
+            <when state="linux_dead_macron" output="Ɩ̄"/>
+        </action>
+        <action id="linux_u01a0">
+            <when state="none" output="Ơ"/>
+            <when state="linux_dead_acute" output="Ớ"/>
+            <when state="linux_dead_belowdot" output="Ợ"/>
+            <when state="linux_dead_grave" output="Ờ"/>
+            <when state="linux_dead_hook" output="Ở"/>
+            <when state="linux_dead_tilde" output="Ỡ"/>
+        </action>
+        <action id="linux_u01a1">
+            <when state="none" output="ơ"/>
+            <when state="linux_dead_acute" output="ớ"/>
+            <when state="linux_dead_belowdot" output="ợ"/>
+            <when state="linux_dead_grave" output="ờ"/>
+            <when state="linux_dead_hook" output="ở"/>
+            <when state="linux_dead_tilde" output="ỡ"/>
+        </action>
+        <action id="linux_u01af">
+            <when state="none" output="Ư"/>
+            <when state="linux_dead_acute" output="Ứ"/>
+            <when state="linux_dead_belowdot" output="Ự"/>
+            <when state="linux_dead_grave" output="Ừ"/>
+            <when state="linux_dead_hook" output="Ử"/>
+            <when state="linux_dead_tilde" output="Ữ"/>
+        </action>
+        <action id="linux_u01b0">
+            <when state="none" output="ư"/>
+            <when state="linux_dead_acute" output="ứ"/>
+            <when state="linux_dead_belowdot" output="ự"/>
+            <when state="linux_dead_grave" output="ừ"/>
+            <when state="linux_dead_hook" output="ử"/>
+            <when state="linux_dead_tilde" output="ữ"/>
+        </action>
+        <action id="linux_u01b1">
+            <when state="none" output="Ʊ"/>
+            <when state="linux_dead_acute" output="Ʊ́"/>
+            <when state="linux_dead_caron" output="Ʊ̌"/>
+            <when state="linux_dead_circumflex" output="Ʊ̂"/>
+            <when state="linux_dead_grave" output="Ʊ̀"/>
+            <when state="linux_dead_macron" output="Ʊ̄"/>
+        </action>
+        <action id="linux_u01b2">
+            <when state="none" output="Ʋ"/>
+            <when state="linux_dead_acute" output="Ʋ́"/>
+            <when state="linux_dead_caron" output="Ʋ̌"/>
+            <when state="linux_dead_circumflex" output="Ʋ̂"/>
+            <when state="linux_dead_grave" output="Ʋ̀"/>
+            <when state="linux_dead_macron" output="Ʋ̄"/>
+        </action>
+        <action id="linux_u01b7">
+            <when state="none" output="Ʒ"/>
+            <when state="linux_dead_caron" output="Ǯ"/>
+        </action>
+        <action id="linux_u01d3">
+            <when state="none" output="Ǔ"/>
+            <when state="linux_dead_diaeresis" output="Ǚ"/>
+        </action>
+        <action id="linux_u01d4">
+            <when state="none" output="ǔ"/>
+            <when state="linux_dead_diaeresis" output="ǚ"/>
+        </action>
+        <action id="linux_u01dd">
+            <when state="none" output="ǝ"/>
+            <when state="linux_dead_acute" output="ǝ́"/>
+            <when state="linux_dead_caron" output="ǝ̌"/>
+            <when state="linux_dead_circumflex" output="ǝ̂"/>
+            <when state="linux_dead_grave" output="ǝ̀"/>
+            <when state="linux_dead_macron" output="ǝ̄"/>
+            <when state="linux_dead_tilde" output="ǝ̃"/>
+        </action>
+        <action id="linux_u01ea">
+            <when state="none" output="Ǫ"/>
+            <when state="linux_dead_macron" output="Ǭ"/>
+        </action>
+        <action id="linux_u01eb">
+            <when state="none" output="ǫ"/>
+            <when state="linux_dead_macron" output="ǭ"/>
+        </action>
+        <action id="linux_u01f2">
+            <when state="none" output="ǲ"/>
+            <when state="linux_dead_caron" output="ǅ"/>
+        </action>
+        <action id="linux_u0226">
+            <when state="none" output="Ȧ"/>
+            <when state="linux_dead_macron" output="Ǡ"/>
+        </action>
+        <action id="linux_u0227">
+            <when state="none" output="ȧ"/>
+            <when state="linux_dead_macron" output="ǡ"/>
+        </action>
+        <action id="linux_u0228">
+            <when state="none" output="Ȩ"/>
+            <when state="linux_dead_breve" output="Ḝ"/>
+        </action>
+        <action id="linux_u0229">
+            <when state="none" output="ȩ"/>
+            <when state="linux_dead_breve" output="ḝ"/>
+        </action>
+        <action id="linux_u022e">
+            <when state="none" output="Ȯ"/>
+            <when state="linux_dead_macron" output="Ȱ"/>
+        </action>
+        <action id="linux_u022f">
+            <when state="none" output="ȯ"/>
+            <when state="linux_dead_macron" output="ȱ"/>
+        </action>
+        <action id="linux_u0237">
+            <when state="none" output="ȷ"/>
+            <when state="linux_dead_stroke" output="ɟ"/>
+        </action>
+        <action id="linux_u0254">
+            <when state="none" output="ɔ"/>
+            <when state="linux_dead_acute" output="ɔ́"/>
+            <when state="linux_dead_caron" output="ɔ̌"/>
+            <when state="linux_dead_circumflex" output="ɔ̂"/>
+            <when state="linux_dead_grave" output="ɔ̀"/>
+            <when state="linux_dead_macron" output="ɔ̄"/>
+            <when state="linux_dead_tilde" output="ɔ̃"/>
+        </action>
+        <action id="linux_u0259">
+            <when state="none" output="ə"/>
+            <when state="linux_dead_hook" output="ɚ"/>
+        </action>
+        <action id="linux_u025b">
+            <when state="none" output="ɛ"/>
+            <when state="linux_dead_acute" output="ɛ́"/>
+            <when state="linux_dead_caron" output="ɛ̌"/>
+            <when state="linux_dead_circumflex" output="ɛ̂"/>
+            <when state="linux_dead_grave" output="ɛ̀"/>
+            <when state="linux_dead_macron" output="ɛ̄"/>
+            <when state="linux_dead_tilde" output="ɛ̃"/>
+        </action>
+        <action id="linux_u0269">
+            <when state="none" output="ɩ"/>
+            <when state="linux_dead_acute" output="ɩ́"/>
+            <when state="linux_dead_caron" output="ɩ̌"/>
+            <when state="linux_dead_circumflex" output="ɩ̂"/>
+            <when state="linux_dead_grave" output="ɩ̀"/>
+            <when state="linux_dead_macron" output="ɩ̄"/>
+            <when state="linux_dead_stroke" output="ᵼ"/>
+        </action>
+        <action id="linux_u028a">
+            <when state="none" output="ʊ"/>
+            <when state="linux_dead_acute" output="ʊ́"/>
+            <when state="linux_dead_caron" output="ʊ̌"/>
+            <when state="linux_dead_circumflex" output="ʊ̂"/>
+            <when state="linux_dead_grave" output="ʊ̀"/>
+            <when state="linux_dead_macron" output="ʊ̄"/>
+        </action>
+        <action id="linux_u028b">
+            <when state="none" output="ʋ"/>
+            <when state="linux_dead_acute" output="ʋ́"/>
+            <when state="linux_dead_caron" output="ʋ̌"/>
+            <when state="linux_dead_circumflex" output="ʋ̂"/>
+            <when state="linux_dead_grave" output="ʋ̀"/>
+            <when state="linux_dead_macron" output="ʋ̄"/>
+        </action>
+        <action id="linux_u0292">
+            <when state="none" output="ʒ"/>
+            <when state="linux_dead_caron" output="ǯ"/>
+        </action>
+        <action id="linux_u0391">
+            <when state="none" output="Α"/>
+            <when state="linux_dead_acute" output="Ά"/>
+            <when state="linux_dead_breve" output="Ᾰ"/>
+            <when state="linux_dead_grave" output="Ὰ"/>
+            <when state="linux_dead_macron" output="Ᾱ"/>
+        </action>
+        <action id="linux_u0395">
+            <when state="none" output="Ε"/>
+            <when state="linux_dead_acute" output="Έ"/>
+            <when state="linux_dead_grave" output="Ὲ"/>
+        </action>
+        <action id="linux_u0397">
+            <when state="none" output="Η"/>
+            <when state="linux_dead_acute" output="Ή"/>
+            <when state="linux_dead_grave" output="Ὴ"/>
+        </action>
+        <action id="linux_u0399">
+            <when state="none" output="Ι"/>
+            <when state="linux_dead_acute" output="Ί"/>
+            <when state="linux_dead_breve" output="Ῐ"/>
+            <when state="linux_dead_diaeresis" output="Ϊ"/>
+            <when state="linux_dead_grave" output="Ὶ"/>
+            <when state="linux_dead_macron" output="Ῑ"/>
+        </action>
+        <action id="linux_u039f">
+            <when state="none" output="Ο"/>
+            <when state="linux_dead_acute" output="Ό"/>
+            <when state="linux_dead_grave" output="Ὸ"/>
+        </action>
+        <action id="linux_u03a5">
+            <when state="none" output="Υ"/>
+            <when state="linux_dead_acute" output="Ύ"/>
+            <when state="linux_dead_breve" output="Ῠ"/>
+            <when state="linux_dead_diaeresis" output="Ϋ"/>
+            <when state="linux_dead_grave" output="Ὺ"/>
+            <when state="linux_dead_macron" output="Ῡ"/>
+        </action>
+        <action id="linux_u03a9">
+            <when state="none" output="Ω"/>
+            <when state="linux_dead_acute" output="Ώ"/>
+            <when state="linux_dead_grave" output="Ὼ"/>
+        </action>
+        <action id="linux_u03b1">
+            <when state="none" output="α"/>
+            <when state="linux_dead_acute" output="ά"/>
+            <when state="linux_dead_breve" output="ᾰ"/>
+            <when state="linux_dead_grave" output="ὰ"/>
+            <when state="linux_dead_macron" output="ᾱ"/>
+            <when state="linux_dead_tilde" output="ᾶ"/>
+        </action>
+        <action id="linux_u03b5">
+            <when state="none" output="ε"/>
+            <when state="linux_dead_acute" output="έ"/>
+            <when state="linux_dead_grave" output="ὲ"/>
+        </action>
+        <action id="linux_u03b7">
+            <when state="none" output="η"/>
+            <when state="linux_dead_acute" output="ή"/>
+            <when state="linux_dead_grave" output="ὴ"/>
+            <when state="linux_dead_tilde" output="ῆ"/>
+        </action>
+        <action id="linux_u03b9">
+            <when state="none" output="ι"/>
+            <when state="linux_dead_acute" output="ί"/>
+            <when state="linux_dead_breve" output="ῐ"/>
+            <when state="linux_dead_diaeresis" output="ϊ"/>
+            <when state="linux_dead_grave" output="ὶ"/>
+            <when state="linux_dead_macron" output="ῑ"/>
+            <when state="linux_dead_tilde" output="ῖ"/>
+        </action>
+        <action id="linux_u03bf">
+            <when state="none" output="ο"/>
+            <when state="linux_dead_acute" output="ό"/>
+            <when state="linux_dead_grave" output="ὸ"/>
+        </action>
+        <action id="linux_u03c5">
+            <when state="none" output="υ"/>
+            <when state="linux_dead_acute" output="ύ"/>
+            <when state="linux_dead_breve" output="ῠ"/>
+            <when state="linux_dead_diaeresis" output="ϋ"/>
+            <when state="linux_dead_grave" output="ὺ"/>
+            <when state="linux_dead_macron" output="ῡ"/>
+            <when state="linux_dead_tilde" output="ῦ"/>
+        </action>
+        <action id="linux_u03c9">
+            <when state="none" output="ω"/>
+            <when state="linux_dead_acute" output="ώ"/>
+            <when state="linux_dead_grave" output="ὼ"/>
+            <when state="linux_dead_tilde" output="ῶ"/>
+        </action>
+        <action id="linux_u03ca">
+            <when state="none" output="ϊ"/>
+            <when state="linux_dead_acute" output="ΐ"/>
+            <when state="linux_dead_grave" output="ῒ"/>
+            <when state="linux_dead_tilde" output="ῗ"/>
+        </action>
+        <action id="linux_u03cb">
+            <when state="none" output="ϋ"/>
+            <when state="linux_dead_acute" output="ΰ"/>
+            <when state="linux_dead_grave" output="ῢ"/>
+            <when state="linux_dead_tilde" output="ῧ"/>
+        </action>
+        <action id="linux_u0406">
+            <when state="none" output="І"/>
+            <when state="linux_dead_diaeresis" output="Ї"/>
+        </action>
+        <action id="linux_u0410">
+            <when state="none" output="А"/>
+            <when state="linux_dead_acute" output="А́"/>
+            <when state="linux_dead_breve" output="Ӑ"/>
+            <when state="linux_dead_circumflex" output="А̂"/>
+            <when state="linux_dead_diaeresis" output="Ӓ"/>
+            <when state="linux_dead_grave" output="А̀"/>
+            <when state="linux_dead_macron" output="А̄"/>
+        </action>
+        <action id="linux_u0413">
+            <when state="none" output="Г"/>
+            <when state="linux_dead_acute" output="Ѓ"/>
+        </action>
+        <action id="linux_u0415">
+            <when state="none" output="Е"/>
+            <when state="linux_dead_acute" output="Е́"/>
+            <when state="linux_dead_breve" output="Ӗ"/>
+            <when state="linux_dead_circumflex" output="Е̂"/>
+            <when state="linux_dead_diaeresis" output="Ё"/>
+            <when state="linux_dead_grave" output="Ѐ"/>
+            <when state="linux_dead_macron" output="Е̄"/>
+        </action>
+        <action id="linux_u0416">
+            <when state="none" output="Ж"/>
+            <when state="linux_dead_breve" output="Ӂ"/>
+            <when state="linux_dead_diaeresis" output="Ӝ"/>
+        </action>
+        <action id="linux_u0417">
+            <when state="none" output="З"/>
+            <when state="linux_dead_diaeresis" output="Ӟ"/>
+        </action>
+        <action id="linux_u0418">
+            <when state="none" output="И"/>
+            <when state="linux_dead_acute" output="И́"/>
+            <when state="linux_dead_breve" output="Й"/>
+            <when state="linux_dead_circumflex" output="И̂"/>
+            <when state="linux_dead_diaeresis" output="Ӥ"/>
+            <when state="linux_dead_grave" output="Ѝ"/>
+            <when state="linux_dead_macron" output="Ӣ"/>
+        </action>
+        <action id="linux_u041a">
+            <when state="none" output="К"/>
+            <when state="linux_dead_acute" output="Ќ"/>
+        </action>
+        <action id="linux_u041e">
+            <when state="none" output="О"/>
+            <when state="linux_dead_acute" output="О́"/>
+            <when state="linux_dead_circumflex" output="О̂"/>
+            <when state="linux_dead_diaeresis" output="Ӧ"/>
+            <when state="linux_dead_grave" output="О̀"/>
+            <when state="linux_dead_macron" output="О̄"/>
+        </action>
+        <action id="linux_u0420">
+            <when state="none" output="Р"/>
+            <when state="linux_dead_acute" output="Р́"/>
+            <when state="linux_dead_circumflex" output="Р̂"/>
+            <when state="linux_dead_grave" output="Р̀"/>
+            <when state="linux_dead_macron" output="Р̄"/>
+        </action>
+        <action id="linux_u0423">
+            <when state="none" output="У"/>
+            <when state="linux_dead_acute" output="У́"/>
+            <when state="linux_dead_breve" output="Ў"/>
+            <when state="linux_dead_circumflex" output="У̂"/>
+            <when state="linux_dead_diaeresis" output="Ӱ"/>
+            <when state="linux_dead_doubleacute" output="Ӳ"/>
+            <when state="linux_dead_grave" output="У̀"/>
+            <when state="linux_dead_macron" output="Ӯ"/>
+        </action>
+        <action id="linux_u0427">
+            <when state="none" output="Ч"/>
+            <when state="linux_dead_diaeresis" output="Ӵ"/>
+        </action>
+        <action id="linux_u042b">
+            <when state="none" output="Ы"/>
+            <when state="linux_dead_acute" output="Ы́"/>
+            <when state="linux_dead_diaeresis" output="Ӹ"/>
+        </action>
+        <action id="linux_u042d">
+            <when state="none" output="Э"/>
+            <when state="linux_dead_acute" output="Э́"/>
+            <when state="linux_dead_diaeresis" output="Ӭ"/>
+        </action>
+        <action id="linux_u042e">
+            <when state="none" output="Ю"/>
+            <when state="linux_dead_acute" output="Ю́́"/>
+        </action>
+        <action id="linux_u042f">
+            <when state="none" output="Я"/>
+            <when state="linux_dead_acute" output="Я́"/>
+        </action>
+        <action id="linux_u0430">
+            <when state="none" output="а"/>
+            <when state="linux_dead_acute" output="а́"/>
+            <when state="linux_dead_breve" output="ӑ"/>
+            <when state="linux_dead_circumflex" output="а̂"/>
+            <when state="linux_dead_diaeresis" output="ӓ"/>
+            <when state="linux_dead_grave" output="а̀"/>
+            <when state="linux_dead_macron" output="а̄"/>
+        </action>
+        <action id="linux_u0433">
+            <when state="none" output="г"/>
+            <when state="linux_dead_acute" output="ѓ"/>
+        </action>
+        <action id="linux_u0435">
+            <when state="none" output="е"/>
+            <when state="linux_dead_acute" output="е́"/>
+            <when state="linux_dead_breve" output="ӗ"/>
+            <when state="linux_dead_circumflex" output="е̂"/>
+            <when state="linux_dead_diaeresis" output="ё"/>
+            <when state="linux_dead_grave" output="ѐ"/>
+            <when state="linux_dead_macron" output="е̄"/>
+        </action>
+        <action id="linux_u0436">
+            <when state="none" output="ж"/>
+            <when state="linux_dead_breve" output="ӂ"/>
+            <when state="linux_dead_diaeresis" output="ӝ"/>
+        </action>
+        <action id="linux_u0437">
+            <when state="none" output="з"/>
+            <when state="linux_dead_diaeresis" output="ӟ"/>
+        </action>
+        <action id="linux_u0438">
+            <when state="none" output="и"/>
+            <when state="linux_dead_acute" output="и́"/>
+            <when state="linux_dead_breve" output="й"/>
+            <when state="linux_dead_circumflex" output="и̂"/>
+            <when state="linux_dead_diaeresis" output="ӥ"/>
+            <when state="linux_dead_grave" output="ѝ"/>
+            <when state="linux_dead_macron" output="ӣ"/>
+        </action>
+        <action id="linux_u043a">
+            <when state="none" output="к"/>
+            <when state="linux_dead_acute" output="ќ"/>
+        </action>
+        <action id="linux_u043e">
+            <when state="none" output="о"/>
+            <when state="linux_dead_acute" output="о́"/>
+            <when state="linux_dead_circumflex" output="о̂"/>
+            <when state="linux_dead_diaeresis" output="ӧ"/>
+            <when state="linux_dead_grave" output="о̀"/>
+            <when state="linux_dead_macron" output="о̄"/>
+        </action>
+        <action id="linux_u0440">
+            <when state="none" output="р"/>
+            <when state="linux_dead_acute" output="р́"/>
+            <when state="linux_dead_circumflex" output="р̂"/>
+            <when state="linux_dead_grave" output="р̀"/>
+            <when state="linux_dead_macron" output="р̄"/>
+        </action>
+        <action id="linux_u0443">
+            <when state="none" output="у"/>
+            <when state="linux_dead_acute" output="у́"/>
+            <when state="linux_dead_breve" output="ў"/>
+            <when state="linux_dead_circumflex" output="у̂"/>
+            <when state="linux_dead_diaeresis" output="ӱ"/>
+            <when state="linux_dead_doubleacute" output="ӳ"/>
+            <when state="linux_dead_grave" output="у̀"/>
+            <when state="linux_dead_macron" output="ӯ"/>
+        </action>
+        <action id="linux_u0447">
+            <when state="none" output="ч"/>
+            <when state="linux_dead_diaeresis" output="ӵ"/>
+        </action>
+        <action id="linux_u044b">
+            <when state="none" output="ы"/>
+            <when state="linux_dead_acute" output="ы́"/>
+            <when state="linux_dead_diaeresis" output="ӹ"/>
+        </action>
+        <action id="linux_u044d">
+            <when state="none" output="э"/>
+            <when state="linux_dead_acute" output="э́"/>
+            <when state="linux_dead_diaeresis" output="ӭ"/>
+        </action>
+        <action id="linux_u044e">
+            <when state="none" output="ю"/>
+            <when state="linux_dead_acute" output="ю́"/>
+        </action>
+        <action id="linux_u044f">
+            <when state="none" output="я"/>
+            <when state="linux_dead_acute" output="я́"/>
+        </action>
+        <action id="linux_u0456">
+            <when state="none" output="і"/>
+            <when state="linux_dead_diaeresis" output="ї"/>
+        </action>
+        <action id="linux_u04d8">
+            <when state="none" output="Ә"/>
+            <when state="linux_dead_diaeresis" output="Ӛ"/>
+        </action>
+        <action id="linux_u04d9">
+            <when state="none" output="ә"/>
+            <when state="linux_dead_diaeresis" output="ӛ"/>
+        </action>
+        <action id="linux_u04e8">
+            <when state="none" output="Ө"/>
+            <when state="linux_dead_diaeresis" output="Ӫ"/>
+        </action>
+        <action id="linux_u04e9">
+            <when state="none" output="ө"/>
+            <when state="linux_dead_diaeresis" output="ӫ"/>
+        </action>
+        <action id="linux_u1e36">
+            <when state="none" output="Ḷ"/>
+            <when state="linux_dead_macron" output="Ḹ"/>
+        </action>
+        <action id="linux_u1e37">
+            <when state="none" output="ḷ"/>
+            <when state="linux_dead_macron" output="ḹ"/>
+        </action>
+        <action id="linux_u1e5a">
+            <when state="none" output="Ṛ"/>
+            <when state="linux_dead_macron" output="Ṝ"/>
+        </action>
+        <action id="linux_u1e5b">
+            <when state="none" output="ṛ"/>
+            <when state="linux_dead_macron" output="ṝ"/>
+        </action>
+        <action id="linux_u1e62">
+            <when state="none" output="Ṣ"/>
+            <when state="linux_dead_abovedot" output="Ṩ"/>
+        </action>
+        <action id="linux_u1e63">
+            <when state="none" output="ṣ"/>
+            <when state="linux_dead_abovedot" output="ṩ"/>
+        </action>
+        <action id="linux_u1ea0">
+            <when state="none" output="Ạ"/>
+            <when state="linux_dead_breve" output="Ặ"/>
+            <when state="linux_dead_circumflex" output="Ậ"/>
+        </action>
+        <action id="linux_u1ea1">
+            <when state="none" output="ạ"/>
+            <when state="linux_dead_breve" output="ặ"/>
+            <when state="linux_dead_circumflex" output="ậ"/>
+        </action>
+        <action id="linux_u1eb8">
+            <when state="none" output="Ẹ"/>
+            <when state="linux_dead_circumflex" output="Ệ"/>
+        </action>
+        <action id="linux_u1eb9">
+            <when state="none" output="ẹ"/>
+            <when state="linux_dead_circumflex" output="ệ"/>
+        </action>
+        <action id="linux_u1ebc">
+            <when state="none" output="Ẽ"/>
+            <when state="linux_dead_circumflex" output="Ễ"/>
+        </action>
+        <action id="linux_u1ebd">
+            <when state="none" output="ẽ"/>
+            <when state="linux_dead_circumflex" output="ễ"/>
+        </action>
+        <action id="linux_u1ecc">
+            <when state="none" output="Ọ"/>
+            <when state="linux_dead_circumflex" output="Ộ"/>
+        </action>
+        <action id="linux_u1ecd">
+            <when state="none" output="ọ"/>
+            <when state="linux_dead_circumflex" output="ộ"/>
+        </action>
+        <action id="linux_u1ece">
+            <when state="none" output="Ỏ"/>
+            <when state="linux_dead_horn" output="Ở"/>
+        </action>
+        <action id="linux_u1ecf">
+            <when state="none" output="ỏ"/>
+            <when state="linux_dead_horn" output="ở"/>
+        </action>
+        <action id="linux_u1ee6">
+            <when state="none" output="Ủ"/>
+            <when state="linux_dead_horn" output="Ử"/>
+        </action>
+        <action id="linux_u1ee7">
+            <when state="none" output="ủ"/>
+            <when state="linux_dead_horn" output="ử"/>
+        </action>
+        <action id="linux_u1f00">
+            <when state="none" output="ἀ"/>
+            <when state="linux_dead_acute" output="ἄ"/>
+            <when state="linux_dead_grave" output="ἂ"/>
+            <when state="linux_dead_tilde" output="ἆ"/>
+        </action>
+        <action id="linux_u1f01">
+            <when state="none" output="ἁ"/>
+            <when state="linux_dead_acute" output="ἅ"/>
+            <when state="linux_dead_grave" output="ἃ"/>
+            <when state="linux_dead_tilde" output="ἇ"/>
+        </action>
+        <action id="linux_u1f08">
+            <when state="none" output="Ἀ"/>
+            <when state="linux_dead_acute" output="Ἄ"/>
+            <when state="linux_dead_grave" output="Ἂ"/>
+            <when state="linux_dead_tilde" output="Ἆ"/>
+        </action>
+        <action id="linux_u1f09">
+            <when state="none" output="Ἁ"/>
+            <when state="linux_dead_acute" output="Ἅ"/>
+            <when state="linux_dead_grave" output="Ἃ"/>
+            <when state="linux_dead_tilde" output="Ἇ"/>
+        </action>
+        <action id="linux_u1f10">
+            <when state="none" output="ἐ"/>
+            <when state="linux_dead_acute" output="ἔ"/>
+            <when state="linux_dead_grave" output="ἒ"/>
+        </action>
+        <action id="linux_u1f11">
+            <when state="none" output="ἑ"/>
+            <when state="linux_dead_acute" output="ἕ"/>
+            <when state="linux_dead_grave" output="ἓ"/>
+        </action>
+        <action id="linux_u1f18">
+            <when state="none" output="Ἐ"/>
+            <when state="linux_dead_acute" output="Ἔ"/>
+            <when state="linux_dead_grave" output="Ἒ"/>
+        </action>
+        <action id="linux_u1f19">
+            <when state="none" output="Ἑ"/>
+            <when state="linux_dead_acute" output="Ἕ"/>
+            <when state="linux_dead_grave" output="Ἓ"/>
+        </action>
+        <action id="linux_u1f20">
+            <when state="none" output="ἠ"/>
+            <when state="linux_dead_acute" output="ἤ"/>
+            <when state="linux_dead_grave" output="ἢ"/>
+            <when state="linux_dead_tilde" output="ἦ"/>
+        </action>
+        <action id="linux_u1f21">
+            <when state="none" output="ἡ"/>
+            <when state="linux_dead_acute" output="ἥ"/>
+            <when state="linux_dead_grave" output="ἣ"/>
+            <when state="linux_dead_tilde" output="ἧ"/>
+        </action>
+        <action id="linux_u1f28">
+            <when state="none" output="Ἠ"/>
+            <when state="linux_dead_acute" output="Ἤ"/>
+            <when state="linux_dead_grave" output="Ἢ"/>
+            <when state="linux_dead_tilde" output="Ἦ"/>
+        </action>
+        <action id="linux_u1f29">
+            <when state="none" output="Ἡ"/>
+            <when state="linux_dead_acute" output="Ἥ"/>
+            <when state="linux_dead_grave" output="Ἣ"/>
+            <when state="linux_dead_tilde" output="Ἧ"/>
+        </action>
+        <action id="linux_u1f30">
+            <when state="none" output="ἰ"/>
+            <when state="linux_dead_acute" output="ἴ"/>
+            <when state="linux_dead_grave" output="ἲ"/>
+            <when state="linux_dead_tilde" output="ἶ"/>
+        </action>
+        <action id="linux_u1f31">
+            <when state="none" output="ἱ"/>
+            <when state="linux_dead_acute" output="ἵ"/>
+            <when state="linux_dead_grave" output="ἳ"/>
+            <when state="linux_dead_tilde" output="ἷ"/>
+        </action>
+        <action id="linux_u1f38">
+            <when state="none" output="Ἰ"/>
+            <when state="linux_dead_acute" output="Ἴ"/>
+            <when state="linux_dead_grave" output="Ἲ"/>
+            <when state="linux_dead_tilde" output="Ἶ"/>
+        </action>
+        <action id="linux_u1f39">
+            <when state="none" output="Ἱ"/>
+            <when state="linux_dead_acute" output="Ἵ"/>
+            <when state="linux_dead_grave" output="Ἳ"/>
+            <when state="linux_dead_tilde" output="Ἷ"/>
+        </action>
+        <action id="linux_u1f40">
+            <when state="none" output="ὀ"/>
+            <when state="linux_dead_acute" output="ὄ"/>
+            <when state="linux_dead_grave" output="ὂ"/>
+        </action>
+        <action id="linux_u1f41">
+            <when state="none" output="ὁ"/>
+            <when state="linux_dead_acute" output="ὅ"/>
+            <when state="linux_dead_grave" output="ὃ"/>
+        </action>
+        <action id="linux_u1f48">
+            <when state="none" output="Ὀ"/>
+            <when state="linux_dead_acute" output="Ὄ"/>
+            <when state="linux_dead_grave" output="Ὂ"/>
+        </action>
+        <action id="linux_u1f49">
+            <when state="none" output="Ὁ"/>
+            <when state="linux_dead_acute" output="Ὅ"/>
+            <when state="linux_dead_grave" output="Ὃ"/>
+        </action>
+        <action id="linux_u1f50">
+            <when state="none" output="ὐ"/>
+            <when state="linux_dead_acute" output="ὔ"/>
+            <when state="linux_dead_grave" output="ὒ"/>
+            <when state="linux_dead_tilde" output="ὖ"/>
+        </action>
+        <action id="linux_u1f51">
+            <when state="none" output="ὑ"/>
+            <when state="linux_dead_acute" output="ὕ"/>
+            <when state="linux_dead_grave" output="ὓ"/>
+            <when state="linux_dead_tilde" output="ὗ"/>
+        </action>
+        <action id="linux_u1f59">
+            <when state="none" output="Ὑ"/>
+            <when state="linux_dead_acute" output="Ὕ"/>
+            <when state="linux_dead_grave" output="Ὓ"/>
+            <when state="linux_dead_tilde" output="Ὗ"/>
+        </action>
+        <action id="linux_u1f60">
+            <when state="none" output="ὠ"/>
+            <when state="linux_dead_acute" output="ὤ"/>
+            <when state="linux_dead_grave" output="ὢ"/>
+            <when state="linux_dead_tilde" output="ὦ"/>
+        </action>
+        <action id="linux_u1f61">
+            <when state="none" output="ὡ"/>
+            <when state="linux_dead_acute" output="ὥ"/>
+            <when state="linux_dead_grave" output="ὣ"/>
+            <when state="linux_dead_tilde" output="ὧ"/>
+        </action>
+        <action id="linux_u1f68">
+            <when state="none" output="Ὠ"/>
+            <when state="linux_dead_acute" output="Ὤ"/>
+            <when state="linux_dead_grave" output="Ὢ"/>
+            <when state="linux_dead_tilde" output="Ὦ"/>
+        </action>
+        <action id="linux_u1f69">
+            <when state="none" output="Ὡ"/>
+            <when state="linux_dead_acute" output="Ὥ"/>
+            <when state="linux_dead_grave" output="Ὣ"/>
+            <when state="linux_dead_tilde" output="Ὧ"/>
+        </action>
+        <action id="linux_u2212">
+            <when state="none" output="−"/>
+            <when state="linux_dead_circumflex" output="⁻"/>
+        </action>
+        <action id="linux_u2264">
+            <when state="none" output="≤"/>
+            <when state="linux_dead_stroke" output="≰"/>
+        </action>
+        <action id="linux_u2265">
+            <when state="none" output="≥"/>
+            <when state="linux_dead_stroke" output="≱"/>
+        </action>
+        <action id="linux_u4e00">
+            <when state="none" output="一"/>
+            <when state="linux_dead_circumflex" output="㆒"/>
+        </action>
+        <action id="linux_u4e01">
+            <when state="none" output="丁"/>
+            <when state="linux_dead_circumflex" output="㆜"/>
+        </action>
+        <action id="linux_u4e09">
+            <when state="none" output="三"/>
+            <when state="linux_dead_circumflex" output="㆔"/>
+        </action>
+        <action id="linux_u4e0a">
+            <when state="none" output="上"/>
+            <when state="linux_dead_circumflex" output="㆖"/>
+        </action>
+        <action id="linux_u4e0b">
+            <when state="none" output="下"/>
+            <when state="linux_dead_circumflex" output="㆘"/>
+        </action>
+        <action id="linux_u4e19">
+            <when state="none" output="丙"/>
+            <when state="linux_dead_circumflex" output="㆛"/>
+        </action>
+        <action id="linux_u4e2d">
+            <when state="none" output="中"/>
+            <when state="linux_dead_circumflex" output="㆗"/>
+        </action>
+        <action id="linux_u4e59">
+            <when state="none" output="乙"/>
+            <when state="linux_dead_circumflex" output="㆚"/>
+        </action>
+        <action id="linux_u4e8c">
+            <when state="none" output="二"/>
+            <when state="linux_dead_circumflex" output="㆓"/>
+        </action>
+        <action id="linux_u4eba">
+            <when state="none" output="人"/>
+            <when state="linux_dead_circumflex" output="㆟"/>
+        </action>
+        <action id="linux_u56db">
+            <when state="none" output="四"/>
+            <when state="linux_dead_circumflex" output="㆕"/>
+        </action>
+        <action id="linux_u5730">
+            <when state="none" output="地"/>
+            <when state="linux_dead_circumflex" output="㆞"/>
+        </action>
+        <action id="linux_u5929">
+            <when state="none" output="天"/>
+            <when state="linux_dead_circumflex" output="㆝"/>
+        </action>
+        <action id="linux_u7532">
+            <when state="none" output="甲"/>
+            <when state="linux_dead_circumflex" output="㆙"/>
+        </action>
+    </actions>
+    <terminators>
+        <when state="dead_abovedot" output="˙"/>
+        <when state="dead_abovering" output="˚"/>
+        <when state="dead_acute" output="´"/>
+        <when state="dead_belowdot" output="."/>
+        <when state="dead_breve" output="˘"/>
+        <when state="dead_caron" output="ˇ"/>
+        <when state="dead_cedilla" output="¸"/>
+        <when state="dead_circumflex" output="^"/>
+        <when state="dead_diaresis" output="¨"/>
+        <when state="dead_doubleacute" output="˝"/>
+        <when state="dead_grave" output="`"/>
+        <when state="dead_hook" output="◌̉"/>
+        <when state="dead_horn" output="◌̛"/>
+        <when state="dead_macron" output="ˉ"/>
+        <when state="dead_ogonek" output="˛"/>
+        <when state="dead_tilde" output="~"/>
+        <when state="linux_dead_abovedot" output="˙"/>
+        <when state="linux_dead_abovering" output="°"/>
+        <when state="linux_dead_acute" output="&#x27;"/>
+        <when state="linux_dead_belowdot" output="̣"/>
+        <when state="linux_dead_breve" output="˘"/>
+        <when state="linux_dead_caron" output="ˇ"/>
+        <when state="linux_dead_cedilla" output="¸"/>
+        <when state="linux_dead_circumflex" output="^"/>
+        <when state="linux_dead_diaeresis" output="&quot;"/>
+        <when state="linux_dead_doubleacute" output="˝"/>
+        <when state="linux_dead_grave" output="`"/>
+        <when state="linux_dead_hook" output="̉"/>
+        <when state="linux_dead_horn" output="̛"/>
+        <when state="linux_dead_macron" output="¯"/>
+        <when state="linux_dead_ogonek" output="˛"/>
+        <when state="linux_dead_stroke" output="/"/>
+        <when state="linux_dead_tilde" output="~"/>
+    </terminators>
+</keyboard>
