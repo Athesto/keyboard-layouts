@@ -1,0 +1,58 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="US International — AltGr dead keys"
+           Manufacturer="Athesto" Version="$(var.Version)"
+           UpgradeCode="$(var.UpgradeCode)" Scope="perMachine"
+           Language="1033" InstallerVersion="500">
+    <MajorUpgrade DowngradeErrorMessage="A newer version is installed." />
+    <MediaTemplate EmbedCab="yes" />
+    <Launch Condition="NOT Arm64" Message="ARM64 Windows is not supported." />
+    <?if $(var.Arch) = x86 ?>
+    <Launch Condition="NOT VersionNT64" Message="Use the x64 installer on 64-bit Windows." />
+    <?endif?>
+    <Property Id="EXISTING_DLL">
+      <DirectorySearch Id="ExistingDllDirectory" Path="[SystemFolder]" Depth="0">
+        <FileSearch Id="ExistingDllFile" Name="usagrlx.dll" />
+      </DirectorySearch>
+    </Property>
+    <Launch Condition="Installed OR LAYOUT_OWNER OR NOT EXISTING_DLL"
+      Message="An older usagrlx keyboard DLL exists. Uninstall the old MSKLC package and restart before installing this package." />
+    <Property Id="LAYOUT_OWNER">
+      <RegistrySearch Id="ExistingLayout" Root="HKLM"
+        Key="SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a1700409"
+        Name="Layout File" Type="raw" Bitness="$(var.RegistryBitness)" />
+    </Property>
+    <Launch Condition="NOT LAYOUT_OWNER OR LAYOUT_OWNER = &quot;usagrlx.dll&quot;"
+      Message="Keyboard ID a1700409 belongs to another layout. Installation stopped." />
+    <StandardDirectory Id="$(var.NativeDirectory)">
+      <Component Id="NativeDll" Guid="*" Bitness="$(var.NativeBitness)">
+        <File Id="NativeDllFile" Source="$(var.NativeDll)" KeyPath="yes" />
+      </Component>
+    </StandardDirectory>
+    <?if $(var.Arch) = x64 ?>
+    <StandardDirectory Id="SystemFolder">
+      <Component Id="WowDll" Guid="*" Bitness="always32">
+        <File Id="WowDllFile" Source="$(var.WowDll)" KeyPath="yes" />
+      </Component>
+    </StandardDirectory>
+    <?endif?>
+    <StandardDirectory Id="ProgramFilesFolder">
+      <Directory Id="RegistrationDirectory" Name="AthestoKeyboard">
+        <Component Id="Registration" Guid="*" Bitness="$(var.NativeBitness)">
+          <RegistryKey Root="HKLM"
+            Key="SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a1700409">
+            <RegistryValue Name="Layout File" Value="usagrlx.dll" Type="string" KeyPath="yes" />
+            <RegistryValue Name="Layout Text" Value="US International — AltGr dead keys" Type="string" />
+            <RegistryValue Name="Layout Id" Value="0170" Type="string" />
+          </RegistryKey>
+        </Component>
+      </Directory>
+    </StandardDirectory>
+    <Feature Id="Layout" Title="Keyboard layout">
+      <ComponentRef Id="NativeDll" />
+      <ComponentRef Id="Registration" />
+      <?if $(var.Arch) = x64 ?>
+      <ComponentRef Id="WowDll" />
+      <?endif?>
+    </Feature>
+  </Package>
+</Wix>

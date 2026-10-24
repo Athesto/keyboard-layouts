@@ -1,0 +1,754 @@
+{
+  "source": "linux/us-intl-altgr.json",
+  "sha256": "d575825ef3d042b1c64f44acbced71955adadef435b0e6598fa468f39dc1b14f",
+  "key_positions": 48,
+  "dead_key_states": 17,
+  "build_status_file": "windows/dist/linux-build-info.json",
+  "limitations": [
+    {
+      "state": "dead_acute",
+      "input": "J",
+      "linux": "J́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "j",
+      "linux": "j́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ŋ",
+      "linux": "Ŋ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ŋ",
+      "linux": "ŋ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ɔ",
+      "linux": "Ɔ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ǝ",
+      "linux": "Ǝ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ɛ",
+      "linux": "Ɛ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ɩ",
+      "linux": "Ɩ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ʊ",
+      "linux": "Ʊ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ʋ",
+      "linux": "Ʋ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ǝ",
+      "linux": "ǝ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ɔ",
+      "linux": "ɔ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ɛ",
+      "linux": "ɛ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ɩ",
+      "linux": "ɩ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ʊ",
+      "linux": "ʊ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ʋ",
+      "linux": "ʋ́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "А",
+      "linux": "А́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Е",
+      "linux": "Е́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "И",
+      "linux": "И́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "О",
+      "linux": "О́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Р",
+      "linux": "Р́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "У",
+      "linux": "У́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ы",
+      "linux": "Ы́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Э",
+      "linux": "Э́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Ю",
+      "linux": "Ю́́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "Я",
+      "linux": "Я́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "а",
+      "linux": "а́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "е",
+      "linux": "е́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "и",
+      "linux": "и́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "о",
+      "linux": "о́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "р",
+      "linux": "р́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "у",
+      "linux": "у́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ы",
+      "linux": "ы́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "э",
+      "linux": "э́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "ю",
+      "linux": "ю́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_acute",
+      "input": "я",
+      "linux": "я́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "Ɔ",
+      "linux": "Ɔ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "Ǝ",
+      "linux": "Ǝ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "Ɛ",
+      "linux": "Ɛ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "Ɩ",
+      "linux": "Ɩ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "Ʊ",
+      "linux": "Ʊ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "Ʋ",
+      "linux": "Ʋ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "ǝ",
+      "linux": "ǝ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "ɔ",
+      "linux": "ɔ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "ɛ",
+      "linux": "ɛ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "ɩ",
+      "linux": "ɩ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "ʊ",
+      "linux": "ʊ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_caron",
+      "input": "ʋ",
+      "linux": "ʋ̌",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "Ɔ",
+      "linux": "Ɔ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "Ǝ",
+      "linux": "Ǝ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "Ɛ",
+      "linux": "Ɛ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "Ɩ",
+      "linux": "Ɩ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "Ʊ",
+      "linux": "Ʊ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "Ʋ",
+      "linux": "Ʋ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "ǝ",
+      "linux": "ǝ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "ɔ",
+      "linux": "ɔ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "ɛ",
+      "linux": "ɛ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "ɩ",
+      "linux": "ɩ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "ʊ",
+      "linux": "ʊ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "ʋ",
+      "linux": "ʋ̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "А",
+      "linux": "А̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "Е",
+      "linux": "Е̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "И",
+      "linux": "И̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "О",
+      "linux": "О̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "Р",
+      "linux": "Р̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "У",
+      "linux": "У̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "а",
+      "linux": "а̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "е",
+      "linux": "е̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "и",
+      "linux": "и̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "о",
+      "linux": "о̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "р",
+      "linux": "р̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_circumflex",
+      "input": "у",
+      "linux": "у̂",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_diaeresis",
+      "input": "'",
+      "linux": "̈́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_diaeresis",
+      "input": "´",
+      "linux": "̈́",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "M",
+      "linux": "M̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "m",
+      "linux": "m̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "Ŋ",
+      "linux": "Ŋ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "ŋ",
+      "linux": "ŋ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "Ɔ",
+      "linux": "Ɔ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "Ǝ",
+      "linux": "Ǝ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "Ɛ",
+      "linux": "Ɛ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "Ɩ",
+      "linux": "Ɩ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "Ʊ",
+      "linux": "Ʊ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "Ʋ",
+      "linux": "Ʋ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "ǝ",
+      "linux": "ǝ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "ɔ",
+      "linux": "ɔ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "ɛ",
+      "linux": "ɛ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "ɩ",
+      "linux": "ɩ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "ʊ",
+      "linux": "ʊ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "ʋ",
+      "linux": "ʋ̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "А",
+      "linux": "А̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "О",
+      "linux": "О̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "Р",
+      "linux": "Р̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "У",
+      "linux": "У̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "а",
+      "linux": "а̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "о",
+      "linux": "о̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "р",
+      "linux": "р̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_grave",
+      "input": "у",
+      "linux": "у̀",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "Ɔ",
+      "linux": "Ɔ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "Ǝ",
+      "linux": "Ǝ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "Ɛ",
+      "linux": "Ɛ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "Ɩ",
+      "linux": "Ɩ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "Ʊ",
+      "linux": "Ʊ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "Ʋ",
+      "linux": "Ʋ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "ǝ",
+      "linux": "ǝ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "ɔ",
+      "linux": "ɔ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "ɛ",
+      "linux": "ɛ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "ɩ",
+      "linux": "ɩ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "ʊ",
+      "linux": "ʊ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "ʋ",
+      "linux": "ʋ̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "А",
+      "linux": "А̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "Е",
+      "linux": "Е̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "О",
+      "linux": "О̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "Р",
+      "linux": "Р̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "а",
+      "linux": "а̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "е",
+      "linux": "е̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "о",
+      "linux": "о̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_macron",
+      "input": "р",
+      "linux": "р̄",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_tilde",
+      "input": "Ɔ",
+      "linux": "Ɔ̃",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_tilde",
+      "input": "Ǝ",
+      "linux": "Ǝ̃",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_tilde",
+      "input": "Ɛ",
+      "linux": "Ɛ̃",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_tilde",
+      "input": "ǝ",
+      "linux": "ǝ̃",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_tilde",
+      "input": "ɔ",
+      "linux": "ɔ̃",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    },
+    {
+      "state": "dead_tilde",
+      "input": "ɛ",
+      "linux": "ɛ̃",
+      "reason": "KLC DEADKEY needs one BMP code unit for input and output"
+    }
+  ],
+  "scope": "Linux-derived ANSI four-level assignments and explicit two-key Compose; runtime fallback/platform behavior remains platform-specific"
+}

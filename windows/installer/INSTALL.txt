@@ -1,0 +1,25 @@
+US International — AltGr dead keys
+
+Choose us-intl-altgr-x64.msi for an Intel/AMD 64-bit Windows system,
+or us-intl-altgr-x86.msi for 32-bit Windows. ARM64 is not supported.
+Run only ONE installer. Administrator approval is required.
+
+After installation, add the keyboard under English (United States) in
+Settings > Time & language > Language & region > Language options.
+Sign out and back in if it does not appear. The installer does not change
+your default input source. No additional program runs in the background.
+
+Remove the keyboard from your input sources before uninstalling it from
+Installed apps. A restart may be needed if Windows is using the DLL.
+Uninstall an older MSKLC-generated usagrlx package and restart before
+installing this MSI. It has a separate product identity.
+
+The package is unsigned. Test quotes, AltGr+A/E/I/O/U, AltGr+N,
+Shift+AltGr+N, AltGr+slash, Shift+AltGr+1 and your editor shortcuts.
+See COMPARISON.md and us-intl-altgr.report.json for compatibility limits.
+The automated build verifies sources and binaries; it does not verify
+interactive typing or every application's behavior.
+
+Installer registration: HKLM Keyboard Layouts, ID a1700409, Layout Id 0170.
+Do not install x86 and x64 packages together. Upgrade from a prerelease to
+the stable release by promoting the same GitHub release; keep its assets.
