@@ -1,0 +1,37 @@
+{
+  "xkeyboard_config_version": "2.46",
+  "archive_url": "https://www.x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-2.46.tar.xz",
+  "archive_sha256": "10c58218fb60d08fb1f7b30304deb3ba47613195aa8a08a81f1972775ccc3640",
+  "files": {
+    "us": {
+      "source": "xkeyboard-config-2.46/symbols/us",
+      "sha256": "cd38b88f81c4d37505fd4908d2bf37eedb26eb8dd80897b3120d987a97079b22"
+    },
+    "level3": {
+      "source": "xkeyboard-config-2.46/symbols/level3",
+      "sha256": "cdeddada22f8593f89cb8693d728dc02a24abef92d62cf0ce61c4f947b6d47d0"
+    },
+    "types-extra": {
+      "source": "xkeyboard-config-2.46/types/extra",
+      "sha256": "bd1f1f82f29473836e802a9c525be0113595c52b9216d19d66060eacaf9cf7c6"
+    },
+    "COPYING.xkeyboard-config": {
+      "source": "xkeyboard-config-2.46/COPYING",
+      "sha256": "fc03f6535d16b3fe9beece45b84214a37e6ca4b6550c03cadaed7e1b951fb294"
+    },
+    "Compose.pre": {
+      "url": "https://raw.githubusercontent.com/mirror/libX11/ff8706a5eae25b8bafce300527079f68a201d27f/nls/en_US.UTF-8/Compose.pre",
+      "commit": "ff8706a5eae25b8bafce300527079f68a201d27f",
+      "sha256": "0189be97a7d8b6f2dfdfe4a785b579a22f93dca4a4f87b010071b3e2341a72fd"
+    },
+    "xkbcommon-keysyms.h": {
+      "url": "https://raw.githubusercontent.com/xkbcommon/libxkbcommon/e6d592e8e1338460a78b1519697dafac7618eb68/include/xkbcommon/xkbcommon-keysyms.h",
+      "commit": "e6d592e8e1338460a78b1519697dafac7618eb68",
+      "sha256": "13023369f65a17411606084e3e09557b4886aeb15f89affba4aaa86490a463f3"
+    },
+    "mac-template.keylayout": {
+      "source": "Repository Mac layout before Linux-based generation; retained only for platform-specific maps",
+      "sha256": "28c8ead40a11d2277231b48922e0fc027143d0eedd92f3eb307222c3a0375c79"
+    }
+  }
+}

@@ -1,0 +1,902 @@
+{
+  "reference": "xkeyboard-config 2.46 us(altgr-intl)",
+  "source_manifest": "reference/sources.json",
+  "positions": 48,
+  "levels": [
+    "normal",
+    "Shift",
+    "AltGr",
+    "Shift+AltGr"
+  ],
+  "cells_per_platform": 192,
+  "direct_difference_counts": {
+    "mac": 0,
+    "windows": 0
+  },
+  "direct_differences": [],
+  "explicit_linux_compose_pairs": 977,
+  "compose_difference_counts": {
+    "mac": 0,
+    "windows": 124
+  },
+  "compose_differences": [
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "J",
+      "linux": "J́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "j",
+      "linux": "j́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ŋ",
+      "linux": "Ŋ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ŋ",
+      "linux": "ŋ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ɔ",
+      "linux": "Ɔ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ǝ",
+      "linux": "Ǝ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ɛ",
+      "linux": "Ɛ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ɩ",
+      "linux": "Ɩ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ʊ",
+      "linux": "Ʊ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ʋ",
+      "linux": "Ʋ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ǝ",
+      "linux": "ǝ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ɔ",
+      "linux": "ɔ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ɛ",
+      "linux": "ɛ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ɩ",
+      "linux": "ɩ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ʊ",
+      "linux": "ʊ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ʋ",
+      "linux": "ʋ́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "А",
+      "linux": "А́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Е",
+      "linux": "Е́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "И",
+      "linux": "И́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "О",
+      "linux": "О́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Р",
+      "linux": "Р́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "У",
+      "linux": "У́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ы",
+      "linux": "Ы́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Э",
+      "linux": "Э́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Ю",
+      "linux": "Ю́́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "Я",
+      "linux": "Я́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "а",
+      "linux": "а́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "е",
+      "linux": "е́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "и",
+      "linux": "и́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "о",
+      "linux": "о́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "р",
+      "linux": "р́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "у",
+      "linux": "у́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ы",
+      "linux": "ы́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "э",
+      "linux": "э́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "ю",
+      "linux": "ю́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_acute",
+      "input": "я",
+      "linux": "я́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "Ɔ",
+      "linux": "Ɔ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "Ǝ",
+      "linux": "Ǝ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "Ɛ",
+      "linux": "Ɛ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "Ɩ",
+      "linux": "Ɩ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "Ʊ",
+      "linux": "Ʊ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "Ʋ",
+      "linux": "Ʋ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "ǝ",
+      "linux": "ǝ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "ɔ",
+      "linux": "ɔ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "ɛ",
+      "linux": "ɛ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "ɩ",
+      "linux": "ɩ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "ʊ",
+      "linux": "ʊ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_caron",
+      "input": "ʋ",
+      "linux": "ʋ̌",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "Ɔ",
+      "linux": "Ɔ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "Ǝ",
+      "linux": "Ǝ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "Ɛ",
+      "linux": "Ɛ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "Ɩ",
+      "linux": "Ɩ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "Ʊ",
+      "linux": "Ʊ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "Ʋ",
+      "linux": "Ʋ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "ǝ",
+      "linux": "ǝ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "ɔ",
+      "linux": "ɔ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "ɛ",
+      "linux": "ɛ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "ɩ",
+      "linux": "ɩ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "ʊ",
+      "linux": "ʊ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "ʋ",
+      "linux": "ʋ̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "А",
+      "linux": "А̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "Е",
+      "linux": "Е̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "И",
+      "linux": "И̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "О",
+      "linux": "О̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "Р",
+      "linux": "Р̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "У",
+      "linux": "У̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "а",
+      "linux": "а̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "е",
+      "linux": "е̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "и",
+      "linux": "и̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "о",
+      "linux": "о̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "р",
+      "linux": "р̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_circumflex",
+      "input": "у",
+      "linux": "у̂",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_diaeresis",
+      "input": "'",
+      "linux": "̈́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_diaeresis",
+      "input": "´",
+      "linux": "̈́",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "M",
+      "linux": "M̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "m",
+      "linux": "m̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "Ŋ",
+      "linux": "Ŋ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "ŋ",
+      "linux": "ŋ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "Ɔ",
+      "linux": "Ɔ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "Ǝ",
+      "linux": "Ǝ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "Ɛ",
+      "linux": "Ɛ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "Ɩ",
+      "linux": "Ɩ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "Ʊ",
+      "linux": "Ʊ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "Ʋ",
+      "linux": "Ʋ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "ǝ",
+      "linux": "ǝ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "ɔ",
+      "linux": "ɔ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "ɛ",
+      "linux": "ɛ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "ɩ",
+      "linux": "ɩ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "ʊ",
+      "linux": "ʊ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "ʋ",
+      "linux": "ʋ̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "А",
+      "linux": "А̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "О",
+      "linux": "О̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "Р",
+      "linux": "Р̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "У",
+      "linux": "У̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "а",
+      "linux": "а̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "о",
+      "linux": "о̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "р",
+      "linux": "р̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_grave",
+      "input": "у",
+      "linux": "у̀",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "Ɔ",
+      "linux": "Ɔ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "Ǝ",
+      "linux": "Ǝ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "Ɛ",
+      "linux": "Ɛ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "Ɩ",
+      "linux": "Ɩ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "Ʊ",
+      "linux": "Ʊ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "Ʋ",
+      "linux": "Ʋ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "ǝ",
+      "linux": "ǝ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "ɔ",
+      "linux": "ɔ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "ɛ",
+      "linux": "ɛ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "ɩ",
+      "linux": "ɩ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "ʊ",
+      "linux": "ʊ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "ʋ",
+      "linux": "ʋ̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "А",
+      "linux": "А̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "Е",
+      "linux": "Е̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "О",
+      "linux": "О̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "Р",
+      "linux": "Р̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "а",
+      "linux": "а̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "е",
+      "linux": "е̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "о",
+      "linux": "о̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_macron",
+      "input": "р",
+      "linux": "р̄",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_tilde",
+      "input": "Ɔ",
+      "linux": "Ɔ̃",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_tilde",
+      "input": "Ǝ",
+      "linux": "Ǝ̃",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_tilde",
+      "input": "Ɛ",
+      "linux": "Ɛ̃",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_tilde",
+      "input": "ǝ",
+      "linux": "ǝ̃",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_tilde",
+      "input": "ɔ",
+      "linux": "ɔ̃",
+      "actual": null
+    },
+    {
+      "platform": "windows",
+      "state": "dead_tilde",
+      "input": "ɛ",
+      "linux": "ɛ̃",
+      "actual": null
+    }
+  ],
+  "scope": [
+    "Printable ANSI normal/Shift/AltGr/Shift+AltGr; excludes Control/CapsLock/Command/JIS/keypad/ISO extra key",
+    "Explicit two-key en_US.UTF-8 Compose pairs; missing table entries are not proof of missing runtime output: toolkit fallback may apply",
+    "Linux Compose can be customized by locale, toolkit and user; pinned here separately from xkeyboard-config",
+    "No existing Mac/Windows layout or installer has been modified by this audit"
+  ],
+  "compared_files": {
+    "mac/us-intl-altgr.keylayout": "dd5b19d4a732e21421def1b6588863d2095f4ed2bad75b2d1de67d91dbb0696d",
+    "windows/us-intl-altgr.klc": "bd0c6cded7942f9cc9f2e1be4a870b23dcafc7c918ddbf0dc462ce9a9b0235d5"
+  }
+}
