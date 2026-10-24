@@ -1,3 +1,7 @@
 dist/
 __pycache__/
 .DS_Store
+
+# Generated locally or in the Pages runner; source is README + site/template.html.
+/index.html
+/index-pandoc.html

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="$description$">
+  <title>$pagetitle$</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css"
+    integrity="sha384-L1dWfspMTHU/ApYnFiMz2QID/PlP1xCW9visvBdbEkOLkSSWsP6ZJWhPw6apiXxU" crossorigin="anonymous">
+  <style>
+    :root { --pico-font-size: 17px; }
+    main.container { width: 100%; max-width: 900px; padding: 2rem 24px; }
+    #readme h1 { max-width: 24ch; }
+    #readme h2 { margin-top: 2.5rem; }
+    .downloads > p { display: flex; gap: .75rem; flex-wrap: wrap; }
+    .downloads a[role="button"] { margin: 0; }
+    .image-scroll, .table-scroll { overflow-x: auto; }
+    #readme img { display: block; max-width: 100%; height: auto; border-radius: var(--pico-border-radius); }
+    .note, footer { font-size: .85rem; color: var(--pico-muted-color); }
+    .snippet { border: 1px solid var(--pico-muted-border-color); border-radius: var(--pico-border-radius); overflow: hidden; margin-bottom: var(--pico-spacing); background: var(--pico-code-background-color); }
+    .snippet-header { display: flex; align-items: center; justify-content: space-between; gap: .5rem; padding: .4rem .8rem; font-size: .8rem; color: var(--pico-muted-color); }
+    .copy-button { display: inline-flex; align-items: center; gap: .5rem; padding: .35rem .5rem; margin: 0; width: auto; font-size: .8rem; }
+    #readme > h1 + p { max-width: 65ch; font-size: 1.15rem; }
+    #readme > hr:last-of-type + p:last-child { font-size: .85rem; color: #596277; }
+    #readme table { display: block; overflow-x: auto; }
+    .snippet-header { margin-top: 1rem; border: 1px solid #dce1ea; border-bottom: 0; border-radius: 8px 8px 0 0; }
+    pre.snippet { overflow-x: auto; margin-top: 0; border-radius: 0 0 8px 8px; }
+  </style>
+</head>
+<body>
+<main class="container">
+  <div id="readme" role="article" aria-label="Project README">
+$body$
+  </div>
+</main>
+<script>
+document.querySelectorAll('.snippet-header button').forEach(button => {
+  let timer;
+  button.addEventListener('click', async () => {
+    const code = button.closest('.snippet-header').nextElementSibling.querySelector('code');
+    const feedback = button.querySelector('.copy-feedback');
+    clearTimeout(timer);
+    try {
+      await navigator.clipboard.writeText(code.textContent);
+      feedback.textContent = 'Copied!';
+    } catch {
+      const range = document.createRange();
+      range.selectNodeContents(code);
+      const selection = window.getSelection();
+      selection.removeAllRanges(); selection.addRange(range);
+      feedback.textContent = 'Selected — press Ctrl+C or ⌘C';
+    }
+    timer = setTimeout(() => { feedback.textContent = ''; }, 4000);
+  });
+});
+</script>
+</body>
+</html>

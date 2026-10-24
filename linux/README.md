@@ -22,3 +22,39 @@ python -m unittest discover -s tools -p 'test_*.py'
 
 See COMPARISON.md and comparison.json for scope and remaining differences.
 Do not edit the pinned reference files: their hashes are checked first.
+
+## Reading the Linux layout
+
+The definition is in `/usr/share/X11/xkb/symbols/us`.
+See the [xkeyboard-config source][xkb-us].
+
+[xkb-us]: https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/master/symbols/us
+
+### `intl` vs. `altgr-intl`
+
+- **`intl`:** quotes act as dead keys. Type `'` then `a` for `á`, or `'`
+  then Space for a literal quote.
+- **`altgr-intl`:** quotes type normally. Use **AltGr+quote**, then **A → á**.
+  **AltGr+A → á** also works directly.
+
+### Reading the definition
+
+Search for `xkb_symbols "altgr-intl"`. Its `include "us(intl)"` uses the
+`xkb_symbols "intl"` block as a starting point, then overrides selected keys.
+
+Inside `intl`, this inherited definition provides accented A:
+
+```text
+key <AC01> { [ a, A, aacute, Aacute ] };
+```
+
+The four values represent **normal, Shift, AltGr, and Shift+AltGr**.
+
+Inside `altgr-intl`, this override restores normal quotes and moves their
+dead-key behavior to AltGr:
+
+```text
+key <AC11> { [ apostrophe, quotedbl, dead_acute, dead_diaeresis ] };
+```
+
+`include "level3(ralt_switch)"` configures Right Alt as AltGr.
