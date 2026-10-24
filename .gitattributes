@@ -1,0 +1,16 @@
+# UTF-8 source files use LF. Keep MSKLC UTF-16/BOM and binaries byte-exact.
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.keylayout text eol=lf
+*.klc -text -diff
+*.dll binary
+*.msi binary
+*.exe binary
+*.zip binary
+# Pinned upstream files retain their original bytes and hashes.
+linux/reference/** -text
+*.yml text eol=lf
+*.wxs text eol=lf
+*.txt text eol=lf
