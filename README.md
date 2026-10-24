@@ -25,8 +25,8 @@ Then select **US International — AltGr dead keys** in macOS input sources.
 
 ## 🪟 Windows
 
-Download the Windows ZIP from [Releases][releases], extract it and run the
-x64 or x86 MSI for your system. Then add the keyboard under English
+Download the versioned x64 or x86 MSI from [Releases][releases] for your
+system and run it. Then add the keyboard under English
 (United States) in Windows language settings. Pre-releases are for testing.
 
 See [windows/README.md](windows/README.md) for installation details,

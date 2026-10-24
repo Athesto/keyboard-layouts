@@ -7,10 +7,11 @@ required at runtime.
 
 ## Install and test
 
-1. Download the Windows ZIP from [Releases][releases].
+1. Download the MSI for your system from [Releases][releases].
    Pre-releases are intended for testing.
-2. Extract it and run **us-intl-altgr-x64.msi** on Intel/AMD 64-bit Windows,
-   or **us-intl-altgr-x86.msi** on 32-bit Windows. ARM64 is unsupported.
+2. Run **us-intl-altgr-vVERSION-x64.msi** on Intel/AMD 64-bit Windows,
+   or **us-intl-altgr-vVERSION-x86.msi** on 32-bit Windows. The filename
+   includes the release version, such as `v1.0.0`. ARM64 is unsupported.
    Administrator approval is required. Packages are unsigned.
 3. Add **US International — AltGr dead keys** under English
    (United States). Sign out and back in if it does not appear.
@@ -93,7 +94,9 @@ with the compiled originals. It does not install the layout or test typing.
 
 Pull requests and manual runs upload an Actions artifact without publishing.
 To publish a **pre-release**, push a tag such as `v0.1.0-rc.1` at the tested
-commit. The workflow attaches MSI files, a ZIP, SHA256SUMS.txt and build-info.
+commit. The workflow attaches versioned MSI files, a diagnostic ZIP and
+SHA256SUMS.txt. The diagnostic ZIP contains logs, reports and build-info;
+it contains no MSI installers or WiX debug files. MSI downloads stand alone.
 Existing release assets are never overwritten by the publishing step.
 If a release already exists, publication fails instead of replacing it.
 
@@ -113,8 +116,11 @@ python tools/build_windows.py --msklc "PATH_TO_MSKLC" --version v0.1.0-rc.1
 ```
 
 Output defaults to `windows/dist/ci/`. Use `--output` for a new destination;
-the builder refuses to overwrite an existing directory. The ZIP includes
-build logs, compatibility reports, license and source metadata. MSI and DLL
+the builder refuses to overwrite an existing directory. The diagnostic ZIP
+includes build logs, compatibility reports, license and source metadata.
+Installer hashes are recorded in build-info without bundling the MSI files.
+SHA256SUMS.txt beside the downloads covers both MSI files and the ZIP.
+The full Actions artifact retains all build outputs for inspection. MSI and DLL
 bytes may vary between builds; promote the tested assets without rebuilding.
 
 [msklc]: https://www.microsoft.com/en-us/download/details.aspx?id=102134

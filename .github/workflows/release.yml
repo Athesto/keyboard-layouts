@@ -77,5 +77,5 @@ jobs:
           gh release create "$TAG" --verify-tag --prerelease --latest=false \
             --title "US International AltGr $TAG" \
             --notes-file .github/release-notes.md \
-            release-assets/*.zip release-assets/*.msi \
-            release-assets/SHA256SUMS.txt release-assets/build-info.json
+            release-assets/us-intl-altgr-diagnostics-*.zip release-assets/*.msi \
+            release-assets/SHA256SUMS.txt

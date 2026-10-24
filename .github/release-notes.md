@@ -1,8 +1,9 @@
 Windows installers generated from the pinned Linux us(altgr-intl) source.
 
-Download the ZIP, extract it, and choose the x64 or x86 MSI. ARM64 is not
-supported. Administrator approval is required. Packages are unsigned.
-Read INSTALL.txt and COMPARISON.md in the ZIP before testing.
+Download the versioned x64 or x86 MSI for your system and run it directly.
+ARM64 is unsupported. Administrator approval is required. Packages are unsigned.
+The separate diagnostic ZIP contains logs, reports, INSTALL.txt and build-info;
+it includes no installers. SHA256SUMS.txt covers both MSI files and the ZIP.
 
 This is a prerelease for installation and typing tests. The build checks
 192 direct assignments and supported explicit Compose entries; Windows

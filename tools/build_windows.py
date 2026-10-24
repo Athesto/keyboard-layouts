@@ -1,4 +1,4 @@
-"""Build native MSI packages and a release ZIP without the MSKLC GUI."""
+"""Build native MSI packages and a diagnostic ZIP without the MSKLC GUI."""
 import argparse, hashlib, json, os, re, shutil, struct, subprocess, tempfile, zipfile
 from pathlib import Path
 from verify_windows import verify
@@ -34,6 +34,7 @@ def main():
     parser.add_argument("--output", type=Path, default=ROOT / "windows/dist/ci")
     args = parser.parse_args()
     version = version_number(args.version)
+    label = "v" + args.version.removeprefix("v")
     out = args.output.resolve()
     if out.exists():
         raise SystemExit("Output already exists; choose an empty path to preserve previous builds")
@@ -64,14 +65,14 @@ def main():
                       "NativeDirectory": "System64Folder" if arch == "x64" else "SystemFolder",
                       "NativeDll": str(dlls[arch]), "WowDll": str(dlls["wow64"])}
             command = [args.wix, "build", str(ROOT / "windows/installer/layout.wxs"),
-                       "-arch", arch, "-o", str(out / f"us-intl-altgr-{arch}.msi")]
+                       "-arch", arch, "-o", str(out / f"us-intl-altgr-{label}-{arch}.msi")]
             for key, value in values.items():
                 command += ["-d", f"{key}={value}"]
             result = subprocess.run(command, cwd=work, env=env, capture_output=True)
             (out / f"installer-{arch}.log").write_bytes(result.stdout + result.stderr)
             if result.returncode:
                 raise SystemExit(f"MSI build failed for {arch}; inspect {out}")
-            verification[arch] = verify(out / f"us-intl-altgr-{arch}.msi", arch, version,
+            verification[arch] = verify(out / f"us-intl-altgr-{label}-{arch}.msi", arch, version,
                                         binary_hashes[arch], binary_hashes["wow64"])
     for relative in ("windows/us-intl-altgr.klc", "windows/us-intl-altgr.report.json",
                      "linux/comparison.json", "linux/COMPARISON.md", "linux/reference/sources.json",
@@ -85,10 +86,10 @@ def main():
             "wix_version": subprocess.check_output([args.wix, "--version"], env=env, text=True).strip(),
             "files": {p.name: digest(p) for p in sorted(out.iterdir()) if p.is_file() and p.suffix != ".wixpdb"}}
     (out / "build-info.json").write_text(json.dumps(info, indent=2) + "\n", encoding="utf-8")
-    package = out / f"us-intl-altgr-windows-{args.version}.zip"
+    package = out / f"us-intl-altgr-diagnostics-{label}.zip"
     with zipfile.ZipFile(package, "w", zipfile.ZIP_DEFLATED) as archive:
         for path in sorted(out.iterdir()):
-            if path.is_file() and path != package and path.suffix != ".wixpdb":
+            if path.is_file() and path != package and path.suffix not in (".wixpdb", ".msi"):
                 archive.write(path, path.name)
     (out / "SHA256SUMS.txt").write_text(
         "".join(f"{digest(p)}  {p.name}\n" for p in [package, *sorted(out.glob("*.msi"))]), encoding="ascii")
