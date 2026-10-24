@@ -42,6 +42,11 @@ class LayoutTests(unittest.TestCase):
         self.assertEqual(by_vk['SPACE'],[' ']*4)
         self.assertEqual(self.compose['dead_acute']['a'],'á')
         self.assertEqual(self.compose['dead_acute'][' '],"'")
+    def test_numpad_decimal(self):
+        row = self.rows[0x53]
+        self.assertEqual(row[1], 'DECIMAL')
+        self.assertEqual(row[3:5], ['002e', '002e'])
+
     def test_formats(self):
         self.assertTrue(self.klc.startswith(b'\xff\xfe'))
         self.assertNotIn('\n',self.klc[2:].decode('utf-16-le').replace('\r\n',''))

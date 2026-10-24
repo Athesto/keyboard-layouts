@@ -125,6 +125,8 @@ def generate():
         if len(alt)==1 and alt.isalpha()and alt_shift==alt.upper():caps|=4
         ctrl={33:'001b',42:'001c',30:'001d',49:'0020'}.get(rec['mac_code'],'-1')
         lines.append(f'{rec["scan"]:02x}\t{rec["vk"]}\t{caps}\t{cell(normal)}\t{cell(shift)}\t{ctrl}\t{cell(alt)}\t{cell(alt_shift)}')
+    # Numpad decimal is separate from the printable ANSI reference.
+    lines.append('53\tDECIMAL\t0\t002e\t002e\t-1\t-1\t-1')
     lines.append('56\tOEM_102\t0\t005c\t007c\t001c\t005c\t007c')
     for state,table in sorted(compose.items()):
         lines+=['',f'DEADKEY\t{ord(terms[state]):04x}','']
