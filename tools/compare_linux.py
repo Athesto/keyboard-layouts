@@ -10,10 +10,10 @@ REF=ROOT/'linux/reference'
 STATES=['normal','Shift','AltGr','Shift+AltGr']
 
 def run():
-    source_manifest=json.loads((REF/'sources.json').read_text())
+    source_manifest=json.loads((REF/'sources.json').read_text(encoding='utf-8'))
     for name,info in source_manifest['files'].items():
         assert hashlib.sha256((REF/name).read_bytes()).hexdigest()==info['sha256'],name
-    header=(REF/'xkbcommon-keysyms.h').read_text()
+    header=(REF/'xkbcommon-keysyms.h').read_text(encoding='utf-8')
     syms={}
     for line in header.splitlines():
         m=re.match(r'#define XKB_KEY_(\w+)\s+0x([0-9a-fA-F]+)',line)
@@ -28,7 +28,7 @@ def run():
         if name in syms:return syms[name]
         if re.fullmatch(r'U[0-9A-Fa-f]{4,6}',name):return chr(int(name[1:],16))
         raise ValueError('Unresolved Linux symbol '+name)
-    text=re.sub(r'//[^\n]*','',(REF/'us').read_text())
+    text=re.sub(r'//[^\n]*','',(REF/'us').read_text(encoding='utf-8'))
     def block(name):
         m=re.search(r'xkb_symbols\s+"'+re.escape(name)+r'"\s*\{',text)
         if not m:raise ValueError(name)
@@ -93,7 +93,7 @@ def run():
     # Explicit Linux Compose pairs for dead keys reachable from this variant.
     reachable={v for levels in linux.values()for v in levels if v.startswith('dead_')}
     compose={}
-    for line in (REF/'Compose.pre').read_text().splitlines():
+    for line in (REF/'Compose.pre').read_text(encoding='utf-8').splitlines():
         m=re.match(r'^<(dead_\w+)>\s+<(\w+)>\s*:\s*("(?:[^"\\]|\\.)*")',line)
         if not m or m[1]not in reachable:continue
         try:base=symbol(m[2])

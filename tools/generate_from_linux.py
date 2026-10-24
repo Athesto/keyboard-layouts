@@ -5,11 +5,11 @@ from mac_to_klc import KEYS,ROOT
 REF=ROOT/'linux/reference'
 
 def reference():
-    manifest=json.loads((REF/'sources.json').read_text())
+    manifest=json.loads((REF/'sources.json').read_text(encoding='utf-8'))
     for filename,info in manifest['files'].items():
         assert hashlib.sha256((REF/filename).read_bytes()).hexdigest()==info['sha256'],filename
     syms={}
-    for line in (REF/'xkbcommon-keysyms.h').read_text().splitlines():
+    for line in (REF/'xkbcommon-keysyms.h').read_text(encoding='utf-8').splitlines():
         m=re.match(r'#define XKB_KEY_(\w+)\s+0x([0-9a-fA-F]+)',line)
         if not m:continue
         name,n=m[1],int(m[2],16);cp=re.search(r'U\+([0-9a-fA-F]{4,6})',line)
@@ -21,7 +21,7 @@ def reference():
         if name in syms:return syms[name]
         if re.fullmatch('U[0-9a-fA-F]{4,6}',name):return chr(int(name[1:],16))
         raise ValueError('Unknown symbol '+name)
-    text=re.sub(r'//[^\n]*','',(REF/'us').read_text())
+    text=re.sub(r'//[^\n]*','',(REF/'us').read_text(encoding='utf-8'))
     def block(name):
         m=re.search(r'xkb_symbols\s+"'+name+r'"\s*\{',text);start=m.end();i=start;depth=1
         while depth:
@@ -42,7 +42,7 @@ def reference():
     positions.update({41:'TLDE',43:'BKSL',57:'SPCE'})
     dead_states={s for levels in keys.values()for s in levels if s.startswith('dead_')}
     compose={state:{}for state in sorted(dead_states)}
-    for line in (REF/'Compose.pre').read_text().splitlines():
+    for line in (REF/'Compose.pre').read_text(encoding='utf-8').splitlines():
         m=re.match(r'^<(dead_\w+)>\s+<(\w+)>\s*:\s*("(?:[^"\\]|\\.)*")',line)
         if not m or m[1]not in dead_states:continue
         try:base=symbol(m[2])
