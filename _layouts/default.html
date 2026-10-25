@@ -1,0 +1,87 @@
+{%- assign heading_html = content | split: '</h1>' | first -%}
+{%- assign derived_title = heading_html | strip_html | strip -%}
+{%- assign intro_html = content | remove_first: heading_html | remove_first: '</h1>' | split: '</p>' | first -%}
+{%- assign derived_description = intro_html | strip_html | normalize_whitespace -%}
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | default: derived_description | escape }}">
+  <title>{{ page.title | default: site.title | default: derived_title | escape }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css"
+    integrity="sha384-L1dWfspMTHU/ApYnFiMz2QID/PlP1xCW9visvBdbEkOLkSSWsP6ZJWhPw6apiXxU" crossorigin="anonymous">
+  <style>
+    :root { --pico-font-size: 17px; }
+    main.container { width: 100%; max-width: 900px; padding: 2rem 24px; }
+    #readme h1 { max-width: 24ch; }
+    #readme h2 { margin-top: 2.5rem; }
+    .downloads { display: flex; gap: .75rem; flex-wrap: wrap; }
+    .downloads a[role="button"] { margin: 0; }
+    .image-scroll, .table-scroll { overflow-x: auto; }
+    #readme img { display: block; max-width: 100%; height: auto; border-radius: var(--pico-border-radius); }
+    .note, footer { font-size: .85rem; color: var(--pico-muted-color); }
+    .snippet { border: 1px solid var(--pico-muted-border-color); border-radius: var(--pico-border-radius); overflow: hidden; margin-bottom: var(--pico-spacing); background: var(--pico-code-background-color); }
+    .snippet-header { display: flex; align-items: center; justify-content: space-between; gap: .5rem; padding: .4rem .8rem; font-size: .8rem; color: var(--pico-muted-color); }
+    .copy-button { display: inline-flex; align-items: center; gap: .5rem; padding: .35rem .5rem; margin: 0; width: auto; font-size: .8rem; }
+    #readme > h1 + p { max-width: 65ch; font-size: 1.15rem; }
+    #readme > hr:last-of-type + p:last-child { font-size: .85rem; color: #596277; }
+    #readme table { display: block; overflow-x: auto; }
+    .snippet-header { margin-top: 1rem; border: 1px solid #dce1ea; border-bottom: 0; border-radius: 8px 8px 0 0; }
+    pre.snippet { overflow-x: auto; margin-top: 0; border-radius: 0 0 8px 8px; }
+  </style>
+</head>
+<body>
+<main class="container">
+  <div id="readme" role="article" aria-label="Project README"
+    data-repository="{{ site.repository_url | append: '/blob/main/' | escape }}">
+{{ content }}
+  </div>
+</main>
+<script>
+
+(() => {
+  const content = document.getElementById('readme');
+  const icon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="3"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>';
+  const downloads = [...content.querySelectorAll('p')].find(p =>
+    p.querySelector('a') && [...p.childNodes].every(n =>
+      n.nodeName === 'A' || (n.nodeType === 3 && !n.textContent.trim())));
+  downloads?.classList.add('downloads');
+  downloads?.querySelectorAll('a').forEach((a, i) => {
+    a.setAttribute('role', 'button');
+    a.className = i ? 'button secondary outline' : 'button primary';
+  });
+  const repo = content.dataset.repository;
+  content.querySelectorAll('a[href]').forEach(a => {
+    const href = a.getAttribute('href');
+    if (!/^(?:[a-z][a-z\d+.-]*:|\/\/|#)/i.test(href) && /\.md(?:[?#]|$)/i.test(href)) a.href = new URL(href, repo).href;
+  });
+  content.querySelectorAll('pre > code').forEach(code => {
+    const pre = code.parentElement;
+    pre.classList.add('snippet');
+    const bar = document.createElement('div');
+    bar.className = 'snippet-header';
+    bar.innerHTML = '<span>Code</span><button type="button" class="copy-button secondary outline" aria-label="Copy code"><span class="copy-feedback" role="status"></span>' + icon + '</button>';
+    pre.before(bar);
+    let timer;
+    bar.querySelector('button').addEventListener('click', async () => {
+      const feedback = bar.querySelector('.copy-feedback');
+      clearTimeout(timer);
+      try {
+        await navigator.clipboard.writeText(code.textContent);
+        feedback.textContent = 'Copied!';
+      } catch {
+        const range = document.createRange();
+        range.selectNodeContents(code);
+        const selection = window.getSelection();
+        selection.removeAllRanges(); selection.addRange(range);
+        feedback.textContent = 'Selected — press Ctrl+C or ⌘C';
+      }
+      timer = setTimeout(() => { feedback.textContent = ''; }, 4000);
+    });
+  });
+})();
+
+</script>
+</body>
+</html>

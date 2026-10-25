@@ -1,4 +1,3 @@
-<!-- -8<- [start:landing] -->
 
 # US International — AltGr dead keys
 
@@ -75,14 +74,12 @@ The main character mappings follow the Linux reference. Some dead-key
 compositions and system shortcuts differ across platforms; see the
 [compatibility report](https://github.com/Athesto/keyboard-layouts/blob/main/linux/COMPARISON.md).
 
-<!-- -8<- [end:landing] -->
 
 <!-- github-only:start -->
 ## TODO
 - include command into button below "tab" and left of "1" for iso keyboard
 <!-- github-only:end -->
 
-<!-- -8<- [start:credits] -->
 
 ---
 
@@ -96,4 +93,3 @@ Mac template: [xv0x7c0][mac-original] · Related work:
 [mac-reference]: https://www.twam.info/hardware/us-international-on-os-x
 [win-reference]: https://github.com/thomasfaingnaert/win-us-intl-altgr
 
-<!-- -8<- [end:credits] -->

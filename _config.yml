@@ -1,0 +1,11 @@
+repository_url: https://github.com/Athesto/keyboard-layouts
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: null
+exclude:
+  - index-reader-backup.html
+  - index-action-preview.html
+  - preview-jekyll.ps1
+  - tools
+  - windows/dist

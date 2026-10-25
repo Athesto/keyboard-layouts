@@ -2,7 +2,8 @@ dist/
 __pycache__/
 .DS_Store
 
-/.zensical-site/
-/.cache/
-/docs/pictures/
-/docs/mac/
+
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/

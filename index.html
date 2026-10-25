@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{%- capture readme -%}{%- include_relative README.md -%}{%- endcapture -%}
+{%- assign sections = readme | split: '<!-- github-only:start -->' -%}
+{%- capture public_readme -%}
+{{ sections | first }}
+{%- for section in sections offset:1 -%}
+{{ section | split: '<!-- github-only:end -->' | last }}
+{%- endfor -%}
+{%- endcapture -%}
+{{ public_readme | markdownify }}
