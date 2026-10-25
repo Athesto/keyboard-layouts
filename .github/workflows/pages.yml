@@ -1,4 +1,4 @@
-name: Publish landing page
+name: Publish website with Zensical
 on:
   push:
     branches: [main]
@@ -14,26 +14,27 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
-      - uses: pandoc/actions/setup@50931da58a60c003a5173d80d8c0cec597365bbe # v1
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
-          version: '3.12.1'
-      - name: Generate static landing page
-        run: >-
-          pandoc README.md --from=gfm --to=html5 --standalone
-          --template=site/template.html --lua-filter=site/landing.lua
-          --syntax-highlighting=none --wrap=none --output=index.html
-      - name: Verify static output and filter rules
-        run: python3 tools/test_site.py
-      - name: Prepare site with repository file paths
-        shell: bash
+          python-version: '3.12'
+      - name: Install Zensical
+        run: python -m pip install zensical==0.0.72
+      - name: Prepare images and downloads
         run: |
-          mkdir -p "$RUNNER_TEMP/pages-site"
-          git archive HEAD | tar -x -C "$RUNNER_TEMP/pages-site"
-          cp index.html "$RUNNER_TEMP/pages-site/index.html"
-          rm -f "$RUNNER_TEMP/pages-site/index-backup.html"
+          mkdir -p docs/pictures docs/mac
+          cp -R pictures/. docs/pictures/
+          cp -R mac/. docs/mac/
+      - name: Build website
+        run: zensical build --config-file zensical.toml
+      - name: Verify published files
+        run: |
+          test -s .zensical-site/index.html
+          grep -q '<table' .zensical-site/index.html
+          cmp pictures/us-intl-altgr.png .zensical-site/pictures/us-intl-altgr.png
+          cmp mac/us-intl-altgr.keylayout .zensical-site/mac/us-intl-altgr.keylayout
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
-          path: ${{ runner.temp }}/pages-site
+          path: .zensical-site
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build

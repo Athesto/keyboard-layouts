@@ -1,6 +1,4 @@
-<!-- website
-repository: https://github.com/Athesto/keyboard-layouts
--->
+<!-- -8<- [start:landing] -->
 
 # US International — AltGr dead keys
 
@@ -20,7 +18,7 @@ Download and run the MSI for your system: **x64** or **x86**. Add
 in Windows language settings. Sign out and back in if it does not appear.
 
 Packages require administrator approval, are unsigned and do not support
-ARM64. Pre-releases are for testing. [Windows guide](windows/README.md).
+ARM64. Pre-releases are for testing. [Windows guide](https://github.com/Athesto/keyboard-layouts/blob/main/windows/README.md).
 
 ### 🍎 macOS
 
@@ -39,7 +37,7 @@ Input Sources. When updating, switch to ABC before replacing the file.
 
 Select **English (intl., with AltGr dead keys)** in keyboard settings:
 layout `us`, variant `altgr-intl`. No download needed.
-[Linux reference](linux/README.md).
+[Linux reference](https://github.com/Athesto/keyboard-layouts/blob/main/linux/README.md).
 
 ## Spanish and Portuguese
 
@@ -75,17 +73,16 @@ Each key shows **Shift** at top left, **Shift + AltGr** at top right,
 
 The main character mappings follow the Linux reference. Some dead-key
 compositions and system shortcuts differ across platforms; see the
-[compatibility report](linux/COMPARISON.md).
+[compatibility report](https://github.com/Athesto/keyboard-layouts/blob/main/linux/COMPARISON.md).
+
+<!-- -8<- [end:landing] -->
 
 <!-- github-only:start -->
-## Website maintenance
-
-Edit this README for content and `site/template.html` for presentation.
-See the [Pandoc build instructions](site/README.md) for local previews.
-
 ## TODO
 - include command into button below "tab" and left of "1" for iso keyboard
 <!-- github-only:end -->
+
+<!-- -8<- [start:credits] -->
 
 ---
 
@@ -98,3 +95,5 @@ Mac template: [xv0x7c0][mac-original] · Related work:
 [mac-original]: https://github.com/xv0x7c0/osx-us-altgr-intl
 [mac-reference]: https://www.twam.info/hardware/us-international-on-os-x
 [win-reference]: https://github.com/thomasfaingnaert/win-us-intl-altgr
+
+<!-- -8<- [end:credits] -->

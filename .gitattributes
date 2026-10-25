@@ -14,7 +14,3 @@ linux/reference/** -text
 *.yml text eol=lf
 *.wxs text eol=lf
 *.txt text eol=lf
-
-*.html text eol=lf
-
-*.lua text eol=lf
