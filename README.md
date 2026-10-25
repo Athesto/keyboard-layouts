@@ -92,4 +92,3 @@ Mac template: [xv0x7c0][mac-original] · Related work:
 [mac-original]: https://github.com/xv0x7c0/osx-us-altgr-intl
 [mac-reference]: https://www.twam.info/hardware/us-international-on-os-x
 [win-reference]: https://github.com/thomasfaingnaert/win-us-intl-altgr
-
