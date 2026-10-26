@@ -13,7 +13,15 @@
     integrity="sha384-L1dWfspMTHU/ApYnFiMz2QID/PlP1xCW9visvBdbEkOLkSSWsP6ZJWhPw6apiXxU" crossorigin="anonymous">
   <style>
     :root { --pico-font-size: 17px; }
-    main.container { width: 100%; max-width: 900px; padding: 2rem 24px; }
+    body { background: #f5f6f8; }
+    main.container { width: 100%; max-width: 900px; padding: clamp(1rem, 3vw, 2rem) clamp(12px, 3vw, 24px); }
+    #readme {
+      padding: clamp(20px, 4vw, 48px);
+      background: var(--pico-card-background-color);
+      border: 1px solid var(--pico-muted-border-color);
+      border-radius: 12px;
+      box-shadow: 0 8px 36px rgba(30, 45, 70, .08);
+    }
     #readme h1 { max-width: 24ch; }
     #readme h2 { margin-top: 2.5rem; }
     .downloads { display: flex; gap: .75rem; flex-wrap: wrap; }
